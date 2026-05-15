@@ -1,0 +1,282 @@
+{
+  "updated": "2026-04-05",
+  "verified_against": [
+    "artifacts/traffic/protanki_watch_146_59_110_146_25565_20260404_173904.jsonl",
+    "artifacts/traffic/protanki_watch_146_59_110_146_25565_20260404_180611.jsonl",
+    "artifacts/traffic/protanki_watch_146_59_110_146_25565_20260404_180956.jsonl",
+    "artifacts/reports/bonus_compromise_session_20260404_174820.md",
+    "artifacts/reports/anti_cheat_auto_round_20260404_181055.md"
+  ],
+  "confirmed": {
+    "runtime_endpoint": {
+      "host": "146.59.110.146",
+      "port": 25565,
+      "note": "confirmed: all 676 packets across 3 sessions"
+    },
+    "mirrors": [
+      "http://146.59.110.103",
+      "http://194.67.196.216",
+      "http://s.pro-tanki.com",
+      "https://s.pro-tanki.com",
+      "http://tankiresources.com",
+      "https://tankiresources.com"
+    ],
+    "fallback_host": {
+      "host": "194.67.196.216",
+      "port": 25565
+    },
+    "boot_chain": {
+      "order": "StandaloneLoader.swf -> Prelauncher.swf -> Loader.swf -> library/hardware/software -> Game",
+      "config_url": "http://146.59.110.103/config.xml (fetched at runtime by Prelauncher, NOT a local file)",
+      "config_key": "address attribute of <server> tag + <port>. For MITM: change address to 127.0.0.1. Prelauncher fetches this URL every startup."
+    },
+    "packet_format": {
+      "transport": "flash.net.Socket TCP",
+      "header_bytes": 8,
+      "header_layout": "int32 headerWord (big-endian) + int32 packetId (big-endian signed)",
+      "total_len_field": "headerWord & 0xFFFFFF (low 24 bits)",
+      "compression_flag": "headerWord >> 24 & 0x40 != 0",
+      "payload_len": "total_len - 8",
+      "compression_method": "raw deflate (zlib.decompress with -MAX_WBITS)",
+      "cipher_applies_to": "payload bytes only, header is always plaintext"
+    },
+    "xor_cipher": {
+      "source_class": "§5214239273239286§/§521423114302311443§.as",
+      "activates_on": "receiving key_exchange packet 2001736388 (delivered plaintext, S->C)",
+      "key_setup": "k = XOR all bytes in key_vector; recv_key[i] = (k^(i<<3))&0xFF; send_key[i] = (k^(i<<3)^0x57)&0xFF",
+      "sc_decrypt_client": "recv_key[pos] ^= enc; out = recv_key[pos]; pos ^= recv_key[pos]&7",
+      "sc_encrypt_server": "enc = plain^recv_key[pos]; recv_key[pos]=plain; pos^=plain&7",
+      "cs_encrypt_client": "enc = plain^send_key[pos]; send_key[pos]=plain; pos^=plain&7",
+      "cs_decrypt_server": "send_key[pos] ^= enc; out = send_key[pos]; pos ^= send_key[pos]&7",
+      "mitm_note": "proxy needs TWO independent C->S states: one tracking client, one tracking server"
+    },
+    "codecs": {
+      "StringCodec": "0x00 (not-null) + int32_BE(byte_len) + UTF-8; null = 0x01 alone",
+      "IntCodec": "int32 big-endian signed",
+      "BooleanCodec": "1 byte 0x00/0x01",
+      "Vector3Codec": "0x00 + float_BE*3 (12 bytes); null = 0x01",
+      "VectorCodecByte": "int32_BE count + count single bytes",
+      "LongCodec": "int64 big-endian"
+    },
+    "handshake": {
+      "key_exchange_id": 2001736388,
+      "key_exchange_direction": "S->C",
+      "key_exchange_payload": "VectorCodecByte: 4-byte count + N bytes",
+      "key_exchange_encrypted": false,
+      "locale_id": -1864333717,
+      "locale_direction": "C->S",
+      "locale_is_first_encrypted_packet": true
+    },
+    "auth_packets": {
+      "login_username": { "id": -739684591, "direction": "C->S", "fields": "String username, String password, Boolean rememberMe" },
+      "login_hash": { "id": -845588810, "direction": "C->S", "fields": "String hash" },
+      "hash_from_server": { "id": 932564569, "direction": "S->C", "fields": "String hash" },
+      "hash_storage": "SharedObject name='name', key='userHash', value XOR-transformed with Capabilities.language+cpuAddressSize+version then escape()"
+    },
+    "bonus_packets": {
+      "spawn": {
+        "id": 1831462385,
+        "direction": "S->C",
+        "fields": "String bonusId, Vector3 position (nullable), int32_BE lifetime_ms",
+        "lifetime_note": "4th field is LIFETIME in ms (NOT pickup delay). Crystal=900000ms(15min), Nitro/Medkit/armorup/damageup=30000ms(30s). Bonus is pickable IMMEDIATELY after spawn packet — no delay.",
+        "payload_len_formula": "22 + len(bonusId)",
+        "observed_bonusId_len_range": "10-13 chars",
+        "priority": 36
+      },
+      "pickup_request": {
+        "id": -1047185003,
+        "direction": "C->S",
+        "fields": "String bonusId",
+        "payload_len_formula": "5 + len(bonusId)",
+        "priority": 36,
+        "source": "BattlefieldModel.as:661 -> Network.send(new §extends set for§(bonusId))"
+      },
+      "pickup_confirm": {
+        "id": -1291499147,
+        "direction": "S->C",
+        "fields": "String bonusId",
+        "payload_len_formula": "5 + len(bonusId)",
+        "note": "broadcast to ALL players in battle, not just the one who picked up",
+        "priority": 36
+      },
+      "bonus_remove": {
+        "id": -2026749922,
+        "direction": "S->C",
+        "fields": "String bonusId",
+        "priority": 36
+      },
+      "crystal_update": {
+        "id": -593513288,
+        "direction": "S->C",
+        "fields": "int delta",
+        "payload_len": 4,
+        "note": "only sent to the player who collected the crystals",
+        "priority": 29
+      },
+      "fund_update": {
+        "id": 1149211509,
+        "direction": "S->C",
+        "fields": "int amount",
+        "payload_len": 4,
+        "note": "sent on every pickup by any player in battle",
+        "priority": 37
+      }
+    },
+    "server_validation": {
+      "early_pickup_before_spawn": "REJECTED (confirmed in test marker)",
+      "replay_same_bonusId": "REJECTED",
+      "random_nonexistent_bonusId": "REJECTED",
+      "legit_pickup_after_spawn": "ACCEPTED (3/3 and 5/5 in test sessions)",
+      "pickup_confirm_rtt_ms": "3-8 ms",
+      "observed_spawn_delta_ms_range": "12-758 ms (time from spawn to pickup request)",
+      "bonusId_is_server_generated": true,
+      "position_check": "Server SILENTLY rejects pickup_request if player is not near the bonus. No error packet, no response. Solution: retry loop every ~500ms until player moves close enough.",
+      "bonus_types_autopickup_confirmed": ["crystal", "armorup", "damageup", "medkit"],
+      "bonus_types_not_yet_confirmed": ["nitro (expired in test session — player too far, mechanism identical)"]
+    },
+    "mitm_setup": {
+      "loopback_aliases_required": [
+        "146.59.110.103/32 (HTTP: intercept Prelauncher config.xml request)",
+        "146.59.110.146/32 (TCP: intercept game socket, handles Adobe AIR cache with old config)"
+      ],
+      "upstream_bind_ip": "Detect real outgoing NIC IP via UDP socket BEFORE adding loopback aliases. Pass as --upstream-bind-ip to proxy. Without this, proxy outgoing TCP loops back to itself.",
+      "http_server_behavior": "Only /config.xml returns modified XML (address=127.0.0.1). All other HTTP paths proxy to real 146.59.110.103:80 via http.client.HTTPConnection.",
+      "python_executable": "C:\\WINDOWS\\py.exe (hardcoded in setup_mitm.ps1 because Start-Process does not inherit PATH)",
+      "retry_strategy": "_pickup_worker thread injects pickup every 0.5s for all bonuses in _active dict. Required because server silently rejects pickup if player is too far.",
+      "race_condition_fix": "_srv_lock must cover BOTH encrypt_cs() AND sendall() in one atomic block. Two separate locks allow interleave and corrupt XOR cipher state.",
+      "confirmed_working_session": "artifacts/traffic/*_192758.jsonl: crystal#3433, balance 886->896, no client_pickup_request in log",
+      "main_validation_session": "artifacts/traffic/auto_pickup_146_59_110_146_20260404_204423.jsonl: ~11 min session, 14 spawns, 12 pickup_confirmed, 7 crystal_update, 3 expired (player too far), balance 926->966. All 4 bonus types (crystal/armorup/damageup/medkit) confirmed auto-picked.",
+      "typical_spawn_to_confirm_s": "1-19 seconds depending on distance to bonus"
+    },
+    "traffic_sessions": {
+      "session_1": {
+        "file": "protanki_watch_146_59_110_146_25565_20260404_173904.jsonl",
+        "raw_events": 254,
+        "deduped_events": 65,
+        "unique_spawns": 14,
+        "pickup_requests": 3,
+        "pickup_confirms": 9,
+        "crystal_updates": 5,
+        "removes": 4,
+        "fund_updates": 30
+      },
+      "session_2": {
+        "file": "protanki_watch_146_59_110_146_25565_20260404_180611.jsonl",
+        "raw_events": 184,
+        "deduped_events": 46,
+        "unique_spawns": 10,
+        "pickup_requests": 0,
+        "pickup_confirms": 6,
+        "removes": 5,
+        "fund_updates": 25
+      },
+      "session_3": {
+        "file": "protanki_watch_146_59_110_146_25565_20260404_180956.jsonl",
+        "raw_events": 238,
+        "deduped_events": 62,
+        "unique_spawns": 13,
+        "pickup_requests": 5,
+        "pickup_confirms": 11,
+        "crystal_updates": 3,
+        "removes": 2,
+        "fund_updates": 28
+      },
+      "mitm_session_main": {
+        "file": "auto_pickup_146_59_110_146_20260404_204423.jsonl",
+        "duration_approx_min": 11,
+        "spawns_detected": 14,
+        "pickup_confirmed": 12,
+        "crystal_updates": 7,
+        "bonus_removed_expired": 3,
+        "pickup_injected_retries": 4045,
+        "balance_start": 926,
+        "balance_end": 966,
+        "bonus_types_confirmed": ["crystal", "armorup", "damageup", "medkit"],
+        "expired_bonuses": ["nitro#352", "armorup#353", "armorup#385"],
+        "note": "All auto-pickup types confirmed working. Expired bonuses = player was too far within 30s lifetime."
+      }
+    },
+    "packet_index": {
+      "count": 482,
+      "priority_range": "0-80",
+      "csv": "artifacts/swf/analysis/packet_map.csv",
+      "json": "artifacts/swf/analysis/packet_map.json",
+      "send_calls_log": "artifacts/swf/analysis/send_calls.txt (176 Network.send calls)"
+    },
+    "battle_movement_correction": {
+      "full_state_is_3d": true,
+      "state_components": ["position_xyz", "orientation_xyz", "linear_velocity_xyz", "angular_velocity_xyz"],
+      "underground_mode_found_in_client": false,
+      "likely_explanation": "collision/geometry bug plus repeated state resync/correction, not a dedicated underground feature",
+      "incoming_correction_packet": {
+        "id": -64696933,
+        "direction": "S->C",
+        "fields": "String tank_id + Codect348a32(state)",
+        "applies_to": "target tank state in battle model"
+      },
+      "codect348a32_layout": {
+        "field_1": "Vector3",
+        "field_2": "byte control/state",
+        "field_3": "Vector3",
+        "field_4": "Vector3",
+        "field_5": "Vector3"
+      },
+      "client_apply_behavior": {
+        "blend_factor_before_apply": 0.5,
+        "blended_components": ["position", "orientation", "linear_velocity", "angular_velocity"],
+        "effect": "incoming correction often appears as jerky motion instead of an instant snap"
+      },
+      "local_resync_watchdog": {
+        "xy_drift_threshold": 500,
+        "z_drift_threshold": 200,
+        "timeout_ms": 2000,
+        "additional_triggers": ["contact state change", "movement state change", "energy/time divergence"]
+      },
+      "state_correction_event_note": "Client-side StateCorrectionEvent is a local full-state refresh trigger around important interactions; do not confuse it with the incoming S->C correction packet."
+    },
+    "noclip_patch": {
+      "status": "partial — tank slides into textures but is still pushed out",
+      "approach": "filter ContactPoint list after getContacts() by contact normal Z",
+      "filter_logic": "|contact.normal.z| < 0.5 → drop (wall); >= 0.5 → keep (floor)",
+      "patch_target_class": "§package package false§/§static set true§.as (CollisionDetector)",
+      "patch_target_method": "§var switch include§",
+      "contact_normal_field": "§5214233761233774123423632234§ (Vector3) on §function set class§ (ContactPoint)",
+      "contact_recycle_method": "§5214238823101123423632234§() on ContactPoint",
+      "collision_groups": {
+        "map_all_geometry": 255,
+        "tank_alive": "1|2|8 = 11",
+        "tank_dead": 1,
+        "check": "(groupA & groupB) != 0 → collision happens"
+      },
+      "set_collision_group_method": "§5214234031234044123423632234§(int) on TankView — sets hull AND wheel shapes",
+      "physics_authority": "client-only; server does not check position against map geometry; accepts any position within drift thresholds (~500 XY, ~200 Z)",
+      "swf_patch_tool": "FFDec -importscript (recompiles one AS3 class only); ~30s; result cached in proxy process memory",
+      "http_routing_fix": "146.59.110.103 on loopback → cannot forward to itself; all non-intercepted HTTP requests must go to 194.67.196.216:80 (same CDN)",
+      "startup_order": "patch must be built at proxy startup BEFORE game launches; lazy build on first HTTP request causes game timeout",
+      "turret_world_position": "no separate world position for turret in any C->S or S->C packet; turret position = hull position + rotationZ only; independent turret movement in world space is not supported by protocol",
+      "turret_control_only_packet": "-1749108178 (int tick + short flags + byte control) — rotates turret without sending hull movement"
+    },
+    "tools": {
+      "crystal_auto_pickup": "scripts/crystal_auto_pickup.py — MITM proxy, auto-injects pickup on spawn (retry loop, atomic _srv_lock, rich JSONL logging)",
+      "setup_mitm": "scripts/setup_mitm.ps1 — one-command launcher: adds loopback aliases, starts proxy, launches ProTanki.exe, streams log to console",
+      "packet_watch": "scripts/protanki_packet_watch.py — passive sniffer, writes CSV+JSONL",
+      "test_runner": "scripts/bonus_compromise_test_runner.py — CSV analysis + PASS/FAIL report",
+      "pktmon_capture": "scripts/capture_with_pktmon.ps1 — Windows ETL capture (no scapy needed)",
+      "swf_audit": "scripts/swf_quick_audit.py — SWF parser: tags, strings, URLs, hashes"
+    },
+    "env_notes": {
+      "powershell": "rg not available; use Select-String / Get-ChildItem",
+      "python": "py -3 (not python3); full path C:\\WINDOWS\\py.exe required when called from Start-Process (PATH not inherited)",
+      "pktmon_dedup": "PktMon duplicates frames; deduplicate with window ~150ms before counting events",
+      "obfuscation": "decompiled AS3 class/method names replaced with §keyword combos§ — logic is still readable",
+      "encoding": "PowerShell scripts must be pure ASCII or UTF-8 with BOM to avoid Cyrillic cp1252 errors. Python: add sys.stdout.reconfigure(encoding='utf-8') at top to avoid UnicodeEncodeError in stdout."
+    }
+  },
+  "hashes": {
+    "StandaloneLoader.swf": "D7E42BAA9BBE98BBCD3B5913A9D5F10928E6C6CA5A379E2BF7684A50F05A2C78",
+    "ProTanki.exe": "AAFF6F51F7D3C108875F2872C02E242BCEDC0BC6527C77512F47D135A7624F66",
+    "Prelauncher.swf": "52D93701990E2B463BC408094631C6B9C20D9EB713096033F963A5DB81274316",
+    "Loader.swf": "D7986DCE0AAAFE2CFE6554CD03522D8DE62A1AB06E2A8BFB60660F198F1CE19C",
+    "library.swf": "3D9B62D7C7C337857B4CEDECB58523CFF352C1F4BEAF8579D6034CC04F760164"
+  }
+}

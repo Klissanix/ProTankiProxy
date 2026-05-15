@@ -1,0 +1,118 @@
+{
+  "source_csv": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\traffic\\protanki_watch_146_59_110_146_25565_20260404_173904.csv",
+  "generated_at_utc": "2026-04-04T16:00:02.344061+00:00",
+  "raw_events": 254,
+  "deduped_events": 68,
+  "pickup_attempts": 3,
+  "accepted_attempts": 3,
+  "rejected_or_unclear_attempts": 0,
+  "attempts": [
+    {
+      "req_ts": "2026-04-04T15:39:10.764448+00:00",
+      "nearest_spawn_ts": "2026-04-04T15:39:10.751474+00:00",
+      "spawn_delta_ms": 12,
+      "confirm_ts": "2026-04-04T15:39:10.767110+00:00",
+      "crystal_ts": "2026-04-04T15:39:11.126540+00:00",
+      "accepted": true
+    },
+    {
+      "req_ts": "2026-04-04T15:39:11.122390+00:00",
+      "nearest_spawn_ts": "2026-04-04T15:39:11.058924+00:00",
+      "spawn_delta_ms": 63,
+      "confirm_ts": "2026-04-04T15:39:11.130188+00:00",
+      "crystal_ts": "2026-04-04T15:39:11.126540+00:00",
+      "accepted": true
+    },
+    {
+      "req_ts": "2026-04-04T15:39:11.249037+00:00",
+      "nearest_spawn_ts": "2026-04-04T15:39:11.058924+00:00",
+      "spawn_delta_ms": 190,
+      "confirm_ts": "2026-04-04T15:39:11.255065+00:00",
+      "crystal_ts": "2026-04-04T15:39:11.251449+00:00",
+      "accepted": true
+    }
+  ],
+  "marker_results": [
+    {
+      "name": "baseline_legit_pickup",
+      "expected": "accept",
+      "start": "2026-04-04T15:39:10.700000+00:00",
+      "end": "2026-04-04T15:39:11.300000+00:00",
+      "requests": 3,
+      "confirms": 3,
+      "crystal_updates": 2,
+      "accepted_by_server": true,
+      "pass": true,
+      "notes": "Control case: normal pickup during real spawn."
+    },
+    {
+      "name": "early_pickup_before_spawn",
+      "expected": "reject",
+      "start": "2026-04-04T15:41:00+00:00",
+      "end": "2026-04-04T15:41:10+00:00",
+      "requests": 0,
+      "confirms": 0,
+      "crystal_updates": 0,
+      "accepted_by_server": false,
+      "pass": true,
+      "notes": "Invalid attempt: pickup request before visible spawn in your test procedure."
+    },
+    {
+      "name": "replay_same_bonus_id",
+      "expected": "reject",
+      "start": "2026-04-04T15:42:00+00:00",
+      "end": "2026-04-04T15:42:10+00:00",
+      "requests": 0,
+      "confirms": 0,
+      "crystal_updates": 0,
+      "accepted_by_server": false,
+      "pass": true,
+      "notes": "Invalid attempt: repeated request with same bonus id in same context."
+    },
+    {
+      "name": "random_or_stale_bonus_id",
+      "expected": "reject",
+      "start": "2026-04-04T15:43:00+00:00",
+      "end": "2026-04-04T15:43:10+00:00",
+      "requests": 0,
+      "confirms": 0,
+      "crystal_updates": 0,
+      "accepted_by_server": false,
+      "pass": true,
+      "notes": "Invalid attempt: guessed or stale bonus id."
+    }
+  ],
+  "attack_surface": {
+    "replay_window_ms": 250,
+    "rapid_pickup_threshold_ms": 80,
+    "replay_clusters": [],
+    "rapid_accepted_pickups": [
+      {
+        "req_ts": "2026-04-04T15:39:10.764448+00:00",
+        "spawn_delta_ms": 12,
+        "confirm_ts": "2026-04-04T15:39:10.767110+00:00"
+      },
+      {
+        "req_ts": "2026-04-04T15:39:11.122390+00:00",
+        "spawn_delta_ms": 63,
+        "confirm_ts": "2026-04-04T15:39:11.130188+00:00"
+      }
+    ],
+    "accepted_without_recent_spawn": [],
+    "risk_score": 6,
+    "risk_level": "medium",
+    "signals": {
+      "replay_cluster_count": 0,
+      "rapid_accepted_count": 2,
+      "accepted_without_spawn_count": 0
+    }
+  },
+  "settings": {
+    "dedup_window_ms": 8,
+    "max_spawn_back_ms": 2000,
+    "confirm_window_ms": 700,
+    "crystal_window_ms": 1200,
+    "replay_window_ms": 250,
+    "rapid_pickup_ms": 80
+  }
+}

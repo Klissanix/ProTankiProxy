@@ -1,0 +1,895 @@
+package alternativa.engine3d.objects
+{
+   import alternativa.engine3d.alternativa3d;
+   import alternativa.engine3d.core.Camera3D;
+   import alternativa.engine3d.core.Canvas;
+   import alternativa.engine3d.core.Debug;
+   import alternativa.engine3d.core.Face;
+   import alternativa.engine3d.core.Object3D;
+   import alternativa.engine3d.core.RayIntersectionData;
+   import alternativa.engine3d.core.VG;
+   import alternativa.engine3d.core.Vertex;
+   import alternativa.engine3d.core.Wrapper;
+   import alternativa.engine3d.materials.Material;
+   import alternativa.engine3d.materials.TextureMaterial;
+   import flash.display.BitmapData;
+   import flash.geom.Matrix3D;
+   import flash.geom.Vector3D;
+   import flash.utils.Dictionary;
+   
+   use namespace alternativa3d;
+   
+   public class Sprite3D extends Object3D
+   {
+      
+      private static var tma:Number;
+      
+      private static var tmb:Number;
+      
+      private static var tmc:Number;
+      
+      private static var tmd:Number;
+      
+      private static var tmtx:Number;
+      
+      private static var tmty:Number;
+      
+      public var material:Material;
+      
+      public var originX:Number = 0.5;
+      
+      public var originY:Number = 0.5;
+      
+      public var sorting:int = 0;
+      
+      public var clipping:int = 2;
+      
+      public var rotation:Number = 0;
+      
+      public var autoSize:Boolean = false;
+      
+      public var width:Number;
+      
+      public var height:Number;
+      
+      public var perspectiveScale:Boolean = true;
+      
+      public var topLeftU:Number = 0;
+      
+      public var topLeftV:Number = 0;
+      
+      public var bottomRightU:Number = 1;
+      
+      public var bottomRightV:Number = 1;
+      
+      public var depthTest:Boolean = true;
+      
+      public function Sprite3D(param1:Number, param2:Number, param3:Material = null)
+      {
+         super();
+         this.width = param1;
+         this.height = param2;
+         this.material = param3;
+         shadowMapAlphaThreshold = 100;
+      }
+      
+      override public function calculateResolution(param1:int, param2:int, param3:int = 1, param4:Matrix3D = null) : Number
+      {
+         var _loc7_:BitmapData = null;
+         var _loc11_:Object3D = null;
+         var _loc8_:Number = NaN;
+         var _loc5_:Number = this.width;
+         var _loc9_:Number = this.height;
+         var _loc10_:Number = this.bottomRightU - this.topLeftU;
+         var _loc6_:Number = this.bottomRightV - this.topLeftV;
+         if(this.autoSize && this.material is TextureMaterial)
+         {
+            _loc7_ = (this.material as TextureMaterial).texture;
+            if(_loc7_ != null)
+            {
+               _loc5_ = _loc7_.width * _loc10_;
+               _loc9_ = _loc7_.height * _loc6_;
+            }
+         }
+         if(param4 != null)
+         {
+            _loc11_ = new Object3D();
+            _loc11_.matrix = param4;
+            _loc11_.composeMatrix();
+            _loc8_ = (Math.sqrt(_loc11_.ma * _loc11_.ma + _loc11_.me * _loc11_.me + _loc11_.mi * _loc11_.mi) + Math.sqrt(_loc11_.mb * _loc11_.mb + _loc11_.mf * _loc11_.mf + _loc11_.mj * _loc11_.mj) + Math.sqrt(_loc11_.mc * _loc11_.mc + _loc11_.mg * _loc11_.mg + _loc11_.mk * _loc11_.mk)) / 3;
+            _loc5_ *= _loc8_;
+            _loc9_ *= _loc8_;
+         }
+         _loc5_ /= param1 * _loc10_;
+         _loc9_ /= param2 * _loc6_;
+         if(param3 == 0)
+         {
+            return _loc5_;
+         }
+         if(param3 == 1)
+         {
+            return (_loc5_ + _loc9_) / 2;
+         }
+         if(param3 == 2)
+         {
+            return _loc5_ < _loc9_ ? _loc5_ : _loc9_;
+         }
+         return _loc5_ > _loc9_ ? _loc5_ : _loc9_;
+      }
+      
+      override public function intersectRay(param1:Vector3D, param2:Vector3D, param3:Dictionary = null, param4:Camera3D = null) : RayIntersectionData
+      {
+         var _loc27_:RayIntersectionData = null;
+         var _loc5_:Vertex = null;
+         var _loc20_:Number = NaN;
+         var _loc28_:Number = NaN;
+         var _loc13_:Number = NaN;
+         var _loc6_:Number = NaN;
+         var _loc9_:Number = NaN;
+         var _loc11_:Vector3D = null;
+         if(param4 == null || param3 != null && param3[this])
+         {
+            return null;
+         }
+         param4.composeCameraMatrix();
+         var _loc14_:Object3D = param4;
+         while(_loc14_._parent != null)
+         {
+            _loc14_ = _loc14_._parent;
+            _loc14_.composeMatrix();
+            param4.appendMatrix(_loc14_);
+         }
+         param4.invertMatrix();
+         composeMatrix();
+         _loc14_ = this;
+         while(_loc14_._parent != null)
+         {
+            _loc14_ = _loc14_._parent;
+            _loc14_.composeMatrix();
+            appendMatrix(_loc14_);
+         }
+         appendMatrix(param4);
+         calculateInverseMatrix();
+         var _loc10_:Number = param4.nearClipping;
+         var _loc30_:Number = param4.farClipping;
+         param4.nearClipping = -1.7976931348623157e+308;
+         param4.farClipping = 1.7976931348623157e+308;
+         culling = 0;
+         var _loc24_:Face = this.d74c6da6(param4);
+         param4.nearClipping = _loc10_;
+         param4.farClipping = _loc30_;
+         var _loc8_:Wrapper = _loc24_.wrapper;
+         while(_loc8_ != null)
+         {
+            _loc5_ = _loc8_.vertex;
+            _loc5_.x = ima * _loc5_.cameraX + imb * _loc5_.cameraY + imc * _loc5_.cameraZ + imd;
+            _loc5_.y = ime * _loc5_.cameraX + imf * _loc5_.cameraY + img * _loc5_.cameraZ + imh;
+            _loc5_.z = imi * _loc5_.cameraX + imj * _loc5_.cameraY + imk * _loc5_.cameraZ + iml;
+            _loc8_ = _loc8_.next;
+         }
+         var _loc26_:Wrapper = _loc24_.wrapper;
+         var _loc17_:Vertex = _loc26_.vertex;
+         _loc26_ = _loc26_.next;
+         var _loc18_:Vertex = _loc26_.vertex;
+         _loc26_ = _loc26_.next;
+         var _loc19_:Vertex = _loc26_.vertex;
+         _loc26_ = _loc26_.next;
+         var _loc21_:Vertex = _loc26_.vertex;
+         _loc17_.u = this.topLeftU;
+         _loc17_.v = this.topLeftV;
+         _loc18_.u = this.topLeftU;
+         _loc18_.v = this.bottomRightV;
+         _loc19_.u = this.bottomRightU;
+         _loc19_.v = this.bottomRightV;
+         _loc21_.u = this.bottomRightU;
+         _loc21_.v = this.topLeftV;
+         var _loc16_:Number = _loc18_.x - _loc17_.x;
+         var _loc25_:Number = _loc18_.y - _loc17_.y;
+         var _loc23_:Number = _loc18_.z - _loc17_.z;
+         var _loc15_:Number = _loc19_.x - _loc17_.x;
+         var _loc29_:Number = _loc19_.y - _loc17_.y;
+         var _loc22_:Number = _loc19_.z - _loc17_.z;
+         _loc24_.normalX = _loc22_ * _loc25_ - _loc29_ * _loc23_;
+         _loc24_.normalY = _loc15_ * _loc23_ - _loc22_ * _loc16_;
+         _loc24_.normalZ = _loc29_ * _loc16_ - _loc15_ * _loc25_;
+         var _loc12_:Number = 1 / Math.sqrt(_loc24_.normalX * _loc24_.normalX + _loc24_.normalY * _loc24_.normalY + _loc24_.normalZ * _loc24_.normalZ);
+         _loc24_.normalX *= _loc12_;
+         _loc24_.normalY *= _loc12_;
+         _loc24_.normalZ *= _loc12_;
+         _loc24_.offset = _loc17_.x * _loc24_.normalX + _loc17_.y * _loc24_.normalY + _loc17_.z * _loc24_.normalZ;
+         var _loc7_:Number = param2.x * _loc24_.normalX + param2.y * _loc24_.normalY + param2.z * _loc24_.normalZ;
+         if(_loc7_ < 0)
+         {
+            _loc20_ = param1.x * _loc24_.normalX + param1.y * _loc24_.normalY + param1.z * _loc24_.normalZ - _loc24_.offset;
+            if(_loc20_ > 0)
+            {
+               _loc28_ = -_loc20_ / _loc7_;
+               _loc13_ = param1.x + param2.x * _loc28_;
+               _loc6_ = param1.y + param2.y * _loc28_;
+               _loc9_ = param1.z + param2.z * _loc28_;
+               _loc8_ = _loc24_.wrapper;
+               while(_loc8_ != null)
+               {
+                  _loc17_ = _loc8_.vertex;
+                  _loc18_ = _loc8_.next != null ? _loc8_.next.vertex : _loc24_.wrapper.vertex;
+                  _loc16_ = _loc18_.x - _loc17_.x;
+                  _loc25_ = _loc18_.y - _loc17_.y;
+                  _loc23_ = _loc18_.z - _loc17_.z;
+                  _loc15_ = _loc13_ - _loc17_.x;
+                  _loc29_ = _loc6_ - _loc17_.y;
+                  _loc22_ = _loc9_ - _loc17_.z;
+                  if((_loc22_ * _loc25_ - _loc29_ * _loc23_) * _loc24_.normalX + (_loc15_ * _loc23_ - _loc22_ * _loc16_) * _loc24_.normalY + (_loc29_ * _loc16_ - _loc15_ * _loc25_) * _loc24_.normalZ < 0)
+                  {
+                     break;
+                  }
+                  _loc8_ = _loc8_.next;
+               }
+               if(_loc8_ == null)
+               {
+                  _loc11_ = new Vector3D(_loc13_,_loc6_,_loc9_);
+                  _loc27_ = new RayIntersectionData();
+                  _loc27_.object = this;
+                  _loc27_.face = null;
+                  _loc27_.point = _loc11_;
+                  _loc27_.time = _loc28_;
+               }
+            }
+         }
+         param4.deferredDestroy();
+         return _loc27_;
+      }
+      
+      override public function clone() : Object3D
+      {
+         var _loc1_:Sprite3D = new Sprite3D(this.width,this.height);
+         _loc1_.clonePropertiesFrom(this);
+         return _loc1_;
+      }
+      
+      override protected function clonePropertiesFrom(param1:Object3D) : void
+      {
+         super.clonePropertiesFrom(param1);
+         var _loc2_:Sprite3D = param1 as Sprite3D;
+         this.width = _loc2_.width;
+         this.height = _loc2_.height;
+         this.autoSize = _loc2_.autoSize;
+         this.material = _loc2_.material;
+         this.clipping = _loc2_.clipping;
+         this.sorting = _loc2_.sorting;
+         this.originX = _loc2_.originX;
+         this.originY = _loc2_.originY;
+         this.topLeftU = _loc2_.topLeftU;
+         this.topLeftV = _loc2_.topLeftV;
+         this.bottomRightU = _loc2_.bottomRightU;
+         this.bottomRightV = _loc2_.bottomRightV;
+         this.rotation = _loc2_.rotation;
+         this.perspectiveScale = _loc2_.perspectiveScale;
+      }
+      
+      override alternativa3d function draw(param1:Camera3D, param2:Canvas) : void
+      {
+         var _loc3_:Canvas = null;
+         var _loc5_:int = 0;
+         if(this.material == null)
+         {
+            return;
+         }
+         var _loc4_:Face = this.d74c6da6(param1);
+         if(_loc4_ != null)
+         {
+            calculateInverseMatrix();
+            if(param1.debug && (_loc5_ = param1.checkInDebug(this)) > 0)
+            {
+               _loc3_ = param2.getChildCanvas(true,false);
+               if(_loc5_ & 0x10)
+               {
+                  Debug.drawEdges(param1,_loc3_,_loc4_,16777215);
+               }
+               if(_loc5_ & 8)
+               {
+                  Debug.drawBounds(param1,_loc3_,this,boundMinX,boundMinY,boundMinZ,boundMaxX,boundMaxY,boundMaxZ);
+               }
+            }
+            _loc3_ = param2.getChildCanvas(true,false,this,alpha,blendMode,colorTransform,filters);
+            this.material.drawViewAligned(param1,_loc3_,_loc4_,ml,tma,tmb,tmc,tmd,tmtx,tmty);
+         }
+      }
+      
+      override alternativa3d function getVG(param1:Camera3D) : VG
+      {
+         if(this.material == null)
+         {
+            return null;
+         }
+         var _loc2_:Face = this.d74c6da6(param1);
+         if(_loc2_ != null)
+         {
+            calculateInverseMatrix();
+            _loc2_.normalX = 0;
+            _loc2_.normalY = 0;
+            _loc2_.normalZ = -1;
+            _loc2_.offset = -ml;
+            return VG.create(this,_loc2_,this.sorting,param1.debug ? param1.checkInDebug(this) : 0,true,tma,tmb,tmc,tmd,tmtx,tmty);
+         }
+         return null;
+      }
+      
+      private function d74c6da6(param1:Camera3D) : Face
+      {
+         var _loc10_:Number = NaN;
+         var _loc12_:Number = NaN;
+         var _loc27_:Number = NaN;
+         var _loc6_:Number = NaN;
+         var _loc16_:Number = NaN;
+         var _loc4_:Number = NaN;
+         var _loc22_:Number = NaN;
+         var _loc13_:Number = NaN;
+         var _loc34_:Vertex = null;
+         var _loc3_:Vertex = null;
+         var _loc7_:Number = NaN;
+         var _loc23_:BitmapData = null;
+         var _loc28_:Number = NaN;
+         var _loc18_:Number = NaN;
+         var _loc19_:Number = NaN;
+         var _loc5_:Number = NaN;
+         var _loc36_:Number = NaN;
+         var _loc11_:Number = NaN;
+         var _loc38_:Number = NaN;
+         var _loc35_:Number = NaN;
+         var _loc32_:Number = NaN;
+         var _loc20_:Vertex = null;
+         var _loc21_:Vertex = null;
+         var _loc33_:Vertex = null;
+         var _loc2_:Vertex = null;
+         culling &= 60;
+         var _loc37_:Number = ml;
+         if(_loc37_ <= param1.nearClipping || _loc37_ >= param1.farClipping)
+         {
+            return null;
+         }
+         var _loc15_:Number = this.width;
+         var _loc8_:Number = this.height;
+         var _loc29_:Number = this.bottomRightU - this.topLeftU;
+         var _loc17_:Number = this.bottomRightV - this.topLeftV;
+         if(this.autoSize && this.material is TextureMaterial)
+         {
+            _loc23_ = (this.material as TextureMaterial).texture;
+            if(_loc23_ != null)
+            {
+               _loc15_ = _loc23_.width * _loc29_;
+               _loc8_ = _loc23_.height * _loc17_;
+            }
+         }
+         var _loc14_:Number = param1.viewSizeX / _loc37_;
+         var _loc24_:Number = param1.viewSizeY / _loc37_;
+         var _loc26_:Number = param1.focalLength / _loc37_;
+         var _loc25_:Number = param1.focalLength / param1.viewSizeX;
+         var _loc30_:Number = param1.focalLength / param1.viewSizeY;
+         _loc10_ = ma / _loc25_;
+         _loc12_ = me / _loc30_;
+         _loc7_ = Math.sqrt(_loc10_ * _loc10_ + _loc12_ * _loc12_ + mi * mi);
+         _loc10_ = mb / _loc25_;
+         _loc12_ = mf / _loc30_;
+         _loc7_ += Math.sqrt(_loc10_ * _loc10_ + _loc12_ * _loc12_ + mj * mj);
+         _loc10_ = mc / _loc25_;
+         _loc12_ = mg / _loc30_;
+         _loc7_ += Math.sqrt(_loc10_ * _loc10_ + _loc12_ * _loc12_ + mk * mk);
+         _loc7_ = _loc7_ / 3;
+         if(!this.perspectiveScale)
+         {
+            _loc7_ /= _loc26_;
+         }
+         if(this.rotation == 0)
+         {
+            _loc28_ = _loc7_ * _loc15_ * _loc25_;
+            _loc18_ = _loc7_ * _loc8_ * _loc30_;
+            _loc10_ = md - this.originX * _loc28_;
+            _loc12_ = mh - this.originY * _loc18_;
+            _loc16_ = _loc10_ + _loc28_;
+            _loc4_ = _loc12_ + _loc18_;
+            tmtx = (_loc10_ - _loc28_ * this.topLeftU / _loc29_) * _loc14_;
+            tmty = (_loc12_ - _loc18_ * this.topLeftV / _loc17_) * _loc24_;
+            if(culling > 0)
+            {
+               if(_loc10_ > _loc37_ || _loc12_ > _loc37_ || _loc16_ < -_loc37_ || _loc4_ < -_loc37_)
+               {
+                  return null;
+               }
+               if(this.clipping == 2)
+               {
+                  if(_loc10_ < -_loc37_)
+                  {
+                     _loc10_ = -_loc37_;
+                  }
+                  if(_loc12_ < -_loc37_)
+                  {
+                     _loc12_ = -_loc37_;
+                  }
+                  if(_loc16_ > _loc37_)
+                  {
+                     _loc16_ = _loc37_;
+                  }
+                  if(_loc4_ > _loc37_)
+                  {
+                     _loc4_ = _loc37_;
+                  }
+               }
+            }
+            _loc3_ = _loc34_ = Vertex.createList(4);
+            _loc3_.cameraX = _loc10_;
+            _loc3_.cameraY = _loc12_;
+            _loc3_.cameraZ = _loc37_;
+            _loc3_ = _loc3_.next;
+            _loc3_.cameraX = _loc10_;
+            _loc3_.cameraY = _loc4_;
+            _loc3_.cameraZ = _loc37_;
+            _loc3_ = _loc3_.next;
+            _loc3_.cameraX = _loc16_;
+            _loc3_.cameraY = _loc4_;
+            _loc3_.cameraZ = _loc37_;
+            _loc3_ = _loc3_.next;
+            _loc3_.cameraX = _loc16_;
+            _loc3_.cameraY = _loc12_;
+            _loc3_.cameraZ = _loc37_;
+            tma = _loc7_ * _loc26_ * _loc15_ / _loc29_;
+            tmb = 0;
+            tmc = 0;
+            tmd = _loc7_ * _loc26_ * _loc8_ / _loc17_;
+         }
+         else
+         {
+            _loc19_ = -Math.sin(this.rotation) * _loc7_;
+            _loc5_ = Math.cos(this.rotation) * _loc7_;
+            _loc36_ = _loc5_ * _loc15_ * _loc25_;
+            _loc11_ = -_loc19_ * _loc15_ * _loc30_;
+            _loc38_ = _loc19_ * _loc8_ * _loc25_;
+            _loc35_ = _loc5_ * _loc8_ * _loc30_;
+            _loc10_ = md - this.originX * _loc36_ - this.originY * _loc38_;
+            _loc12_ = mh - this.originX * _loc11_ - this.originY * _loc35_;
+            _loc27_ = _loc10_ + _loc38_;
+            _loc6_ = _loc12_ + _loc35_;
+            _loc16_ = _loc10_ + _loc36_ + _loc38_;
+            _loc4_ = _loc12_ + _loc11_ + _loc35_;
+            _loc22_ = _loc10_ + _loc36_;
+            _loc13_ = _loc12_ + _loc11_;
+            tmtx = (_loc10_ - _loc36_ * this.topLeftU / _loc29_ - _loc38_ * this.topLeftV / _loc17_) * _loc14_;
+            tmty = (_loc12_ - _loc11_ * this.topLeftU / _loc29_ - _loc35_ * this.topLeftV / _loc17_) * _loc24_;
+            if(culling > 0)
+            {
+               if(this.clipping == 1)
+               {
+                  if(culling & 4 && _loc37_ <= -_loc10_ && _loc37_ <= -_loc27_ && _loc37_ <= -_loc16_ && _loc37_ <= -_loc22_)
+                  {
+                     return null;
+                  }
+                  if(culling & 8 && _loc37_ <= _loc10_ && _loc37_ <= _loc27_ && _loc37_ <= _loc16_ && _loc37_ <= _loc22_)
+                  {
+                     return null;
+                  }
+                  if(culling & 0x10 && _loc37_ <= -_loc12_ && _loc37_ <= -_loc6_ && _loc37_ <= -_loc4_ && _loc37_ <= -_loc13_)
+                  {
+                     return null;
+                  }
+                  if(culling & 0x20 && _loc37_ <= _loc12_ && _loc37_ <= _loc6_ && _loc37_ <= _loc4_ && _loc37_ <= _loc13_)
+                  {
+                     return null;
+                  }
+                  _loc3_ = _loc34_ = Vertex.createList(4);
+                  _loc3_.cameraX = _loc10_;
+                  _loc3_.cameraY = _loc12_;
+                  _loc3_.cameraZ = _loc37_;
+                  _loc3_ = _loc3_.next;
+                  _loc3_.cameraX = _loc10_ + _loc38_;
+                  _loc3_.cameraY = _loc12_ + _loc35_;
+                  _loc3_.cameraZ = _loc37_;
+                  _loc3_ = _loc3_.next;
+                  _loc3_.cameraX = _loc10_ + _loc36_ + _loc38_;
+                  _loc3_.cameraY = _loc12_ + _loc11_ + _loc35_;
+                  _loc3_.cameraZ = _loc37_;
+                  _loc3_ = _loc3_.next;
+                  _loc3_.cameraX = _loc10_ + _loc36_;
+                  _loc3_.cameraY = _loc12_ + _loc11_;
+                  _loc3_.cameraZ = _loc37_;
+               }
+               else
+               {
+                  if(culling & 4)
+                  {
+                     if(_loc37_ <= -_loc10_ && _loc37_ <= -_loc27_ && _loc37_ <= -_loc16_ && _loc37_ <= -_loc22_)
+                     {
+                        return null;
+                     }
+                     if(_loc37_ > -_loc10_ && _loc37_ > -_loc27_ && _loc37_ > -_loc16_ && _loc37_ > -_loc22_)
+                     {
+                        culling &= 59;
+                     }
+                  }
+                  if(culling & 8)
+                  {
+                     if(_loc37_ <= _loc10_ && _loc37_ <= _loc27_ && _loc37_ <= _loc16_ && _loc37_ <= _loc22_)
+                     {
+                        return null;
+                     }
+                     if(_loc37_ > _loc10_ && _loc37_ > _loc27_ && _loc37_ > _loc16_ && _loc37_ > _loc22_)
+                     {
+                        culling &= 55;
+                     }
+                  }
+                  if(culling & 0x10)
+                  {
+                     if(_loc37_ <= -_loc12_ && _loc37_ <= -_loc6_ && _loc37_ <= -_loc4_ && _loc37_ <= -_loc13_)
+                     {
+                        return null;
+                     }
+                     if(_loc37_ > -_loc12_ && _loc37_ > -_loc6_ && _loc37_ > -_loc4_ && _loc37_ > -_loc13_)
+                     {
+                        culling &= 47;
+                     }
+                  }
+                  if(culling & 0x20)
+                  {
+                     if(_loc37_ <= _loc12_ && _loc37_ <= _loc6_ && _loc37_ <= _loc4_ && _loc37_ <= _loc13_)
+                     {
+                        return null;
+                     }
+                     if(_loc37_ > _loc12_ && _loc37_ > _loc6_ && _loc37_ > _loc4_ && _loc37_ > _loc13_)
+                     {
+                        culling &= 31;
+                     }
+                  }
+                  _loc3_ = _loc34_ = Vertex.createList(4);
+                  _loc3_.cameraX = _loc10_;
+                  _loc3_.cameraY = _loc12_;
+                  _loc3_.cameraZ = _loc37_;
+                  _loc3_ = _loc3_.next;
+                  _loc3_.cameraX = _loc10_ + _loc38_;
+                  _loc3_.cameraY = _loc12_ + _loc35_;
+                  _loc3_.cameraZ = _loc37_;
+                  _loc3_ = _loc3_.next;
+                  _loc3_.cameraX = _loc10_ + _loc36_ + _loc38_;
+                  _loc3_.cameraY = _loc12_ + _loc11_ + _loc35_;
+                  _loc3_.cameraZ = _loc37_;
+                  _loc3_ = _loc3_.next;
+                  _loc3_.cameraX = _loc10_ + _loc36_;
+                  _loc3_.cameraY = _loc12_ + _loc11_;
+                  _loc3_.cameraZ = _loc37_;
+                  if(culling > 0)
+                  {
+                     if(culling & 4)
+                     {
+                        _loc20_ = _loc3_;
+                        _loc10_ = _loc20_.cameraX;
+                        _loc21_ = _loc34_;
+                        _loc34_ = null;
+                        _loc3_ = null;
+                        while(_loc21_ != null)
+                        {
+                           _loc2_ = _loc21_.next;
+                           _loc27_ = _loc21_.cameraX;
+                           if(_loc37_ > -_loc27_ && _loc37_ <= -_loc10_ || _loc37_ <= -_loc27_ && _loc37_ > -_loc10_)
+                           {
+                              _loc32_ = (_loc10_ + _loc37_) / (_loc10_ - _loc27_);
+                              _loc33_ = _loc21_.create();
+                              _loc33_.cameraX = _loc10_ + (_loc27_ - _loc10_) * _loc32_;
+                              _loc33_.cameraY = _loc20_.cameraY + (_loc21_.cameraY - _loc20_.cameraY) * _loc32_;
+                              _loc33_.cameraZ = _loc37_;
+                              if(_loc34_ != null)
+                              {
+                                 _loc3_.next = _loc33_;
+                              }
+                              else
+                              {
+                                 _loc34_ = _loc33_;
+                              }
+                              _loc3_ = _loc33_;
+                           }
+                           if(_loc37_ > -_loc27_)
+                           {
+                              if(_loc34_ != null)
+                              {
+                                 _loc3_.next = _loc21_;
+                              }
+                              else
+                              {
+                                 _loc34_ = _loc21_;
+                              }
+                              _loc3_ = _loc21_;
+                              _loc21_.next = null;
+                           }
+                           else
+                           {
+                              _loc21_.next = Vertex.collector;
+                              Vertex.collector = _loc21_;
+                           }
+                           _loc20_ = _loc21_;
+                           _loc10_ = _loc27_;
+                           _loc21_ = _loc2_;
+                        }
+                        if(_loc34_ == null)
+                        {
+                           return null;
+                        }
+                     }
+                     if(culling & 8)
+                     {
+                        _loc20_ = _loc3_;
+                        _loc10_ = _loc20_.cameraX;
+                        _loc21_ = _loc34_;
+                        _loc34_ = null;
+                        _loc3_ = null;
+                        while(_loc21_ != null)
+                        {
+                           _loc2_ = _loc21_.next;
+                           _loc27_ = _loc21_.cameraX;
+                           if(_loc37_ > _loc27_ && _loc37_ <= _loc10_ || _loc37_ <= _loc27_ && _loc37_ > _loc10_)
+                           {
+                              _loc32_ = (_loc37_ - _loc10_) / (_loc27_ - _loc10_);
+                              _loc33_ = _loc21_.create();
+                              _loc33_.cameraX = _loc10_ + (_loc27_ - _loc10_) * _loc32_;
+                              _loc33_.cameraY = _loc20_.cameraY + (_loc21_.cameraY - _loc20_.cameraY) * _loc32_;
+                              _loc33_.cameraZ = _loc37_;
+                              if(_loc34_ != null)
+                              {
+                                 _loc3_.next = _loc33_;
+                              }
+                              else
+                              {
+                                 _loc34_ = _loc33_;
+                              }
+                              _loc3_ = _loc33_;
+                           }
+                           if(_loc37_ > _loc27_)
+                           {
+                              if(_loc34_ != null)
+                              {
+                                 _loc3_.next = _loc21_;
+                              }
+                              else
+                              {
+                                 _loc34_ = _loc21_;
+                              }
+                              _loc3_ = _loc21_;
+                              _loc21_.next = null;
+                           }
+                           else
+                           {
+                              _loc21_.next = Vertex.collector;
+                              Vertex.collector = _loc21_;
+                           }
+                           _loc20_ = _loc21_;
+                           _loc10_ = _loc27_;
+                           _loc21_ = _loc2_;
+                        }
+                        if(_loc34_ == null)
+                        {
+                           return null;
+                        }
+                     }
+                     if(culling & 0x10)
+                     {
+                        _loc20_ = _loc3_;
+                        _loc12_ = _loc20_.cameraY;
+                        _loc21_ = _loc34_;
+                        _loc34_ = null;
+                        _loc3_ = null;
+                        while(_loc21_ != null)
+                        {
+                           _loc2_ = _loc21_.next;
+                           _loc6_ = _loc21_.cameraY;
+                           if(_loc37_ > -_loc6_ && _loc37_ <= -_loc12_ || _loc37_ <= -_loc6_ && _loc37_ > -_loc12_)
+                           {
+                              _loc32_ = (_loc12_ + _loc37_) / (_loc12_ - _loc6_);
+                              _loc33_ = _loc21_.create();
+                              _loc33_.cameraX = _loc20_.cameraX + (_loc21_.cameraX - _loc20_.cameraX) * _loc32_;
+                              _loc33_.cameraY = _loc12_ + (_loc6_ - _loc12_) * _loc32_;
+                              _loc33_.cameraZ = _loc37_;
+                              if(_loc34_ != null)
+                              {
+                                 _loc3_.next = _loc33_;
+                              }
+                              else
+                              {
+                                 _loc34_ = _loc33_;
+                              }
+                              _loc3_ = _loc33_;
+                           }
+                           if(_loc37_ > -_loc6_)
+                           {
+                              if(_loc34_ != null)
+                              {
+                                 _loc3_.next = _loc21_;
+                              }
+                              else
+                              {
+                                 _loc34_ = _loc21_;
+                              }
+                              _loc3_ = _loc21_;
+                              _loc21_.next = null;
+                           }
+                           else
+                           {
+                              _loc21_.next = Vertex.collector;
+                              Vertex.collector = _loc21_;
+                           }
+                           _loc20_ = _loc21_;
+                           _loc12_ = _loc6_;
+                           _loc21_ = _loc2_;
+                        }
+                        if(_loc34_ == null)
+                        {
+                           return null;
+                        }
+                     }
+                     if(culling & 0x20)
+                     {
+                        _loc20_ = _loc3_;
+                        _loc12_ = _loc20_.cameraY;
+                        _loc21_ = _loc34_;
+                        _loc34_ = null;
+                        _loc3_ = null;
+                        while(_loc21_ != null)
+                        {
+                           _loc2_ = _loc21_.next;
+                           _loc6_ = _loc21_.cameraY;
+                           if(_loc37_ > _loc6_ && _loc37_ <= _loc12_ || _loc37_ <= _loc6_ && _loc37_ > _loc12_)
+                           {
+                              _loc32_ = (_loc37_ - _loc12_) / (_loc6_ - _loc12_);
+                              _loc33_ = _loc21_.create();
+                              _loc33_.cameraX = _loc20_.cameraX + (_loc21_.cameraX - _loc20_.cameraX) * _loc32_;
+                              _loc33_.cameraY = _loc12_ + (_loc6_ - _loc12_) * _loc32_;
+                              _loc33_.cameraZ = _loc37_;
+                              if(_loc34_ != null)
+                              {
+                                 _loc3_.next = _loc33_;
+                              }
+                              else
+                              {
+                                 _loc34_ = _loc33_;
+                              }
+                              _loc3_ = _loc33_;
+                           }
+                           if(_loc37_ > _loc6_)
+                           {
+                              if(_loc34_ != null)
+                              {
+                                 _loc3_.next = _loc21_;
+                              }
+                              else
+                              {
+                                 _loc34_ = _loc21_;
+                              }
+                              _loc3_ = _loc21_;
+                              _loc21_.next = null;
+                           }
+                           else
+                           {
+                              _loc21_.next = Vertex.collector;
+                              Vertex.collector = _loc21_;
+                           }
+                           _loc20_ = _loc21_;
+                           _loc12_ = _loc6_;
+                           _loc21_ = _loc2_;
+                        }
+                        if(_loc34_ == null)
+                        {
+                           return null;
+                        }
+                     }
+                  }
+               }
+            }
+            else
+            {
+               _loc3_ = _loc34_ = Vertex.createList(4);
+               _loc3_.cameraX = _loc10_;
+               _loc3_.cameraY = _loc12_;
+               _loc3_.cameraZ = _loc37_;
+               _loc3_ = _loc3_.next;
+               _loc3_.cameraX = _loc10_ + _loc38_;
+               _loc3_.cameraY = _loc12_ + _loc35_;
+               _loc3_.cameraZ = _loc37_;
+               _loc3_ = _loc3_.next;
+               _loc3_.cameraX = _loc10_ + _loc36_ + _loc38_;
+               _loc3_.cameraY = _loc12_ + _loc11_ + _loc35_;
+               _loc3_.cameraZ = _loc37_;
+               _loc3_ = _loc3_.next;
+               _loc3_.cameraX = _loc10_ + _loc36_;
+               _loc3_.cameraY = _loc12_ + _loc11_;
+               _loc3_.cameraZ = _loc37_;
+            }
+            tma = _loc5_ * _loc26_ * _loc15_ / _loc29_;
+            tmb = -_loc19_ * _loc26_ * _loc15_ / _loc29_;
+            tmc = _loc19_ * _loc26_ * _loc8_ / _loc17_;
+            tmd = _loc5_ * _loc26_ * _loc8_ / _loc17_;
+         }
+         param1.lastVertex.next = _loc34_;
+         param1.lastVertex = _loc3_;
+         var _loc31_:Face = Face.createStatic();
+         _loc31_.material = this.material;
+         param1.lastFace.next = _loc31_;
+         param1.lastFace = _loc31_;
+         var _loc9_:Wrapper = Wrapper.createStatic();
+         _loc31_.wrapper = _loc9_;
+         _loc9_.vertex = _loc34_;
+         _loc34_ = _loc34_.next;
+         while(_loc34_ != null)
+         {
+            _loc9_.next = _loc9_.create();
+            _loc9_ = _loc9_.next;
+            _loc9_.vertex = _loc34_;
+            _loc34_ = _loc34_.next;
+         }
+         return _loc31_;
+      }
+      
+      override alternativa3d function updateBounds(param1:Object3D, param2:Object3D = null) : void
+      {
+         var _loc5_:BitmapData = null;
+         var _loc9_:Number = NaN;
+         var _loc10_:Number = NaN;
+         var _loc4_:Number = NaN;
+         var _loc13_:Number = NaN;
+         var _loc11_:Number = this.width;
+         var _loc7_:Number = this.height;
+         if(this.autoSize && this.material is TextureMaterial)
+         {
+            _loc5_ = (this.material as TextureMaterial).texture;
+            if(_loc5_ != null)
+            {
+               _loc11_ = _loc5_.width * (this.bottomRightU - this.topLeftU);
+               _loc7_ = _loc5_.height * (this.bottomRightV - this.topLeftV);
+            }
+         }
+         var _loc14_:Number = (this.originX >= 0.5 ? this.originX : 1 - this.originX) * _loc11_;
+         var _loc6_:Number = (this.originY >= 0.5 ? this.originY : 1 - this.originY) * _loc7_;
+         var _loc15_:Number = Math.sqrt(_loc14_ * _loc14_ + _loc6_ * _loc6_);
+         var _loc12_:Number = 0;
+         var _loc3_:Number = 0;
+         var _loc8_:Number = 0;
+         if(param2 != null)
+         {
+            _loc9_ = param2.ma;
+            _loc10_ = param2.me;
+            _loc4_ = param2.mi;
+            _loc13_ = Math.sqrt(_loc9_ * _loc9_ + _loc10_ * _loc10_ + _loc4_ * _loc4_);
+            _loc9_ = param2.mb;
+            _loc10_ = param2.mf;
+            _loc4_ = param2.mj;
+            _loc13_ += Math.sqrt(_loc9_ * _loc9_ + _loc10_ * _loc10_ + _loc4_ * _loc4_);
+            _loc9_ = param2.mc;
+            _loc10_ = param2.mg;
+            _loc4_ = param2.mk;
+            _loc13_ += Math.sqrt(_loc9_ * _loc9_ + _loc10_ * _loc10_ + _loc4_ * _loc4_);
+            _loc15_ *= _loc13_ / 3;
+            _loc12_ = param2.md;
+            _loc3_ = param2.mh;
+            _loc8_ = param2.ml;
+         }
+         if(_loc12_ - _loc15_ < param1.boundMinX)
+         {
+            param1.boundMinX = _loc12_ - _loc15_;
+         }
+         if(_loc12_ + _loc15_ > param1.boundMaxX)
+         {
+            param1.boundMaxX = _loc12_ + _loc15_;
+         }
+         if(_loc3_ - _loc15_ < param1.boundMinY)
+         {
+            param1.boundMinY = _loc3_ - _loc15_;
+         }
+         if(_loc3_ + _loc15_ > param1.boundMaxY)
+         {
+            param1.boundMaxY = _loc3_ + _loc15_;
+         }
+         if(_loc8_ - _loc15_ < param1.boundMinZ)
+         {
+            param1.boundMinZ = _loc8_ - _loc15_;
+         }
+         if(_loc8_ + _loc15_ > param1.boundMaxZ)
+         {
+            param1.boundMaxZ = _loc8_ + _loc15_;
+         }
+      }
+   }
+}
+

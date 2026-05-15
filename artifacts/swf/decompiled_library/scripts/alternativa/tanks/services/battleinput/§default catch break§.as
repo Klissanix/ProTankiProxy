@@ -1,0 +1,11 @@
+package alternativa.tanks.services.battleinput
+{
+   import alternativa.tanks.service.settings.keybinding.GameActionEnum;
+   
+   public interface §default catch break§
+   {
+      
+      function onGameAction(param1:GameActionEnum, param2:Boolean) : void;
+   }
+}
+

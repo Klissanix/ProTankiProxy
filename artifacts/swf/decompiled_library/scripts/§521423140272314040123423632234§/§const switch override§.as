@@ -1,0 +1,52 @@
+package §521423140272314040123423632234§
+{
+   import §5214231074231087123423632234§.CaptchaLocation;
+   import §break use catch§.§extends package import§;
+   
+   public class §const switch override§ extends §extends package import§
+   {
+      
+      public var §52142333423347123423632234§:CaptchaLocation;
+      
+      public var §5214237782237795123423632234§:Vector.<int>;
+      
+      public function §const switch override§(param1:CaptchaLocation = null, param2:Vector.<int> = null)
+      {
+         super();
+         this.§52142333423347123423632234§ = param1;
+         this.§5214237782237795123423632234§ = param2;
+         §5214231095231108123423632234§(param1);
+         §52142384923862123423632234§("scpacker.networking.protocol.codec.custom.CaptchaLocationCodec");
+         §5214231095231108123423632234§(param2);
+         §52142384923862123423632234§("scpacker.networking.protocol.codec.custom.VectorCodecByte");
+      }
+      
+      override public function §else try§() : int
+      {
+         return -373510957;
+      }
+      
+      override public function §if null§(param1:Object, param2:int) : void
+      {
+         switch(param2)
+         {
+            case 0:
+               this.§52142333423347123423632234§ = param1 as CaptchaLocation;
+               break;
+            case 1:
+               this.§5214237782237795123423632234§ = param1 as Vector.<int>;
+         }
+      }
+      
+      override public function §521423106882310701123423632234§() : §extends package import§
+      {
+         return new §const switch override§();
+      }
+      
+      override public function §5214235090235103123423632234§() : int
+      {
+         return 6;
+      }
+   }
+}
+

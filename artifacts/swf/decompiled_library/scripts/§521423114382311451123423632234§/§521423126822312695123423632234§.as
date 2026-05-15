@@ -1,0 +1,43 @@
+package §521423114382311451123423632234§
+{
+   import §break use catch§.§extends package import§;
+   
+   public class §521423126822312695123423632234§ extends §extends package import§
+   {
+      
+      public var §each const each§:int;
+      
+      public function §521423126822312695123423632234§(param1:int = 0)
+      {
+         super();
+         this.§each const each§ = param1;
+         §5214231095231108123423632234§(param1);
+         §52142384923862123423632234§("scpacker.networking.protocol.codec.primitive.IntCodec");
+      }
+      
+      override public function §if null§(param1:Object, param2:int) : void
+      {
+         switch(param2)
+         {
+            case 0:
+               this.§each const each§ = param1 as int;
+         }
+      }
+      
+      override public function §5214235090235103123423632234§() : int
+      {
+         return 34;
+      }
+      
+      override public function §521423106882310701123423632234§() : §extends package import§
+      {
+         return new §521423126822312695123423632234§();
+      }
+      
+      override public function §else try§() : int
+      {
+         return -2001666558;
+      }
+   }
+}
+

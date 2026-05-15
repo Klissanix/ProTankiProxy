@@ -1,0 +1,27 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/build/protanki
+/dist
+/ProTankiProxyClient/build
+/ProTankiProxyClient/dist
+/ProTankiProxyClient/generated/library_noclip.swf
+/ProTankiProxyClient/settings.ini
+/ProTankiProxyPatcher/output
+/ProTankiProxyPatcher/python/build
+/ProTankiProxyPatcher/python/dist
+/ProTankiProxyPatcher/python/__pycache__
+/ProTankiProxyPatcher/cpp/build
+/ProTankiProxyPatcher/cpp/dist
+/ProTankiProxyPatcher/cpp/generated
+/ProTankiProxyPatcher/cpp/settings.ini
+
+# Python bytecode caches
+**/__pycache__/
+*.py[cod]
+/ProTankiProxyPatcher/python/artifacts/swf/patched/library_noclip.build.json
+/ProTankiProxyPatcher/python/artifacts/swf/patched/library_noclip.swf
+/ProTankiProxyPatcher/python/artifacts/swf/decompiled_library/scripts
+/_ffdec_mine_export/scripts

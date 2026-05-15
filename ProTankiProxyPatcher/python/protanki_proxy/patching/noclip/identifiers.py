@@ -1,0 +1,62 @@
+from __future__ import annotations
+
+PKG_A = "§package package false§"
+FILE_A = "§static set true§.as"
+NORMAL_FIELD = "§5214233761233774123423632234§"
+CP_RECYCLE = "§5214238823101123423632234§"
+BODY_FIELD = "§5214232783232796123423632234§"
+DYNAMIC_FLAG = "§set for implements§"
+COLLIDER_TYPE = "§final set null§"
+CASE_FIELD = "§with set case§"
+
+PKG_B = "§5214238361238374123423632234§"
+FILE_B = "§5214239411239424123423632234§.as"
+BODY_WRAPPER = "§implements for break§"
+BODY_STATE = "§implements catch catch§"
+ANGULAR_VEL = "§get var dynamic§"
+LINEAR_VEL = "§native use function§"
+QUAT_FIELD = "§try switch true§"
+POS_FIELD = "§dynamic final§"
+
+PKG_CD = "§5214232446232459123423632234§"
+FILE_C = "§if for switch§.as"
+FILE_D = "§5214234677234690123423632234§.as"
+DRIVE_CTRL = "§if for switch§"
+CLIENT_TANK_FIELD = "§do for final§"
+TANK_SPEC_FIELD = "§package switch package§"
+BOOST_SPEED = 800
+AIR_TURN_SPEED = 1.5
+LEVEL_SPEED = 8.0
+LEVEL_DAMP = 0.75
+HOLD_DAMP = 0.88
+ANTI_FLIP_THRESHOLD = 0.05
+PICKUP_RADIUS = 1500
+PICKUP_RETRY_MS = 250
+
+PKG_CAM_SPECTATOR = "§var const get§"
+CLASS_SPECTATOR_CAM = "§each const set§"
+FILE_SPECTATOR_CAM = "§each const set§.as"
+PKG_CAM_BASE = "§var set var§"
+CLASS_CAM_BASE = "§5214235669235682123423632234§"
+FREECAM_ACTIVATE = "§extends for include§"
+FREECAM_DEACTIVATE = "§5214234355234368123423632234§"
+BATTLE_SERVICE_STATIC = "§52142380523818123423632234§"
+PKG_BONUS_COMMON = "§use switch use§"
+BONUS_REGISTRY_FIELD = "§native catch try§"
+BONUS_REGIONS_CLASS = "BonusRegionsModel"
+BONUS_REGIONS_FILE = "BonusRegionsModel.as"
+BONUS_REGIONS_POINTS_METHOD = "_ptpGetGoldDropPoints"
+BONUS_REGIONS_PKG = "§extends override§"
+MINE_MODEL_PKG = "§52142360623619123423632234§"
+MINE_MODEL_FILE = "§use for false§.as"
+MINE_MODEL_CLASS = "§use for false§"
+MINE_MODEL_POINTS_METHOD = "_ptpGetMinePoints"
+MINE_MODEL_STATIC_FIELD = "_ptpCurrentModel_"
+
+CAM_SPD_CONST = "§true const get§"
+CAM_SPD_DEFAULT_OLD = 1300
+CAM_SPD_DEFAULT_NEW = 3500
+WALL_THRESHOLD = 0.7
+GROUND_CHK = "§5214232330232343123423632234§"
+GROUND_CHK_METHOD = "§use catch get§"
+GET_CAMERA_METHOD = "§while set for§"

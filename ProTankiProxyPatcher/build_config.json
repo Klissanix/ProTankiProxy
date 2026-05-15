@@ -1,0 +1,12 @@
+{
+  "patch": {
+    "patched_swf_name": "library_noclip.swf",
+    "xray_default_on": false
+  },
+  "client": {
+    "build": true,
+    "platforms": [
+      "Win32"
+    ]
+  }
+}

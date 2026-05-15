@@ -1,0 +1,2894 @@
+[
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§implements switch switch§\\§5214232851232864123423632234§.as",
+    "class": "§5214232851232864123423632234§",
+    "packet_id": -2141998253,
+    "priority": 60
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214238160238173123423632234§\\§5214234580234593123423632234§.as",
+    "class": "§5214234580234593123423632234§",
+    "packet_id": -2135234426,
+    "priority": 30
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423125662312579123423632234§\\§5214238236238249123423632234§.as",
+    "class": "§5214238236238249123423632234§",
+    "packet_id": -2133657895,
+    "priority": 32
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214237549237562123423632234§\\§5214231339231352123423632234§.as",
+    "class": "§5214231339231352123423632234§",
+    "packet_id": -2124388778,
+    "priority": 58
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423131802313193123423632234§\\§throw const null§.as",
+    "class": "§throw const null§",
+    "packet_id": -2123941185,
+    "priority": 56
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423122732312286123423632234§\\§521423118032311816123423632234§.as",
+    "class": "§521423118032311816123423632234§",
+    "packet_id": -2118900410,
+    "priority": 9
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§default set include§\\§521423119772311990123423632234§.as",
+    "class": "§521423119772311990123423632234§",
+    "packet_id": -2102525054,
+    "priority": 43
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§else var set§\\§default catch§.as",
+    "class": "§default catch§",
+    "packet_id": -2089008699,
+    "priority": 13
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§if set case§\\§5214237512237525123423632234§.as",
+    "class": "§5214237512237525123423632234§",
+    "packet_id": -2069508071,
+    "priority": 18
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214233704233717123423632234§\\§null catch null§.as",
+    "class": "§null catch null§",
+    "packet_id": -2053489715,
+    "priority": 79
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§if set case§\\§5214236085236098123423632234§.as",
+    "class": "§5214236085236098123423632234§",
+    "packet_id": -2040152224,
+    "priority": 18
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§extends use switch§\\§5214239771239784123423632234§.as",
+    "class": "§5214239771239784123423632234§",
+    "packet_id": -2030760866,
+    "priority": 50
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§function use super§\\§5214234868234881123423632234§.as",
+    "class": "§5214234868234881123423632234§",
+    "packet_id": -2026749922,
+    "priority": 36
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214233704233717123423632234§\\§52142327323286123423632234§.as",
+    "class": "§52142327323286123423632234§",
+    "packet_id": -2002206647,
+    "priority": 79
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423114382311451123423632234§\\§521423126822312695123423632234§.as",
+    "class": "§521423126822312695123423632234§",
+    "packet_id": -2001666558,
+    "priority": 34
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214237221237234123423632234§\\§5214239500239513123423632234§.as",
+    "class": "§5214239500239513123423632234§",
+    "packet_id": -1994318624,
+    "priority": 39
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214232554232567123423632234§\\§5214233173233186123423632234§.as",
+    "class": "§5214233173233186123423632234§",
+    "packet_id": -1986638927,
+    "priority": 57
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423114382311451123423632234§\\§extends var implements§.as",
+    "class": "§",
+    "packet_id": -1968445033,
+    "priority": 34
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§throw package override§\\§521423103062310319123423632234§.as",
+    "class": "§521423103062310319123423632234§",
+    "packet_id": -1967950183,
+    "priority": 3
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423114382311451123423632234§\\§5214239417239430123423632234§.as",
+    "class": "§5214239417239430123423632234§",
+    "packet_id": -1961983005,
+    "priority": 34
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§null in§\\§5214231339231352123423632234§.as",
+    "class": "§5214231339231352123423632234§",
+    "packet_id": -1959138292,
+    "priority": 48
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423107152310728123423632234§\\§5214237629237642123423632234§.as",
+    "class": "§5214237629237642123423632234§",
+    "packet_id": -1940289099,
+    "priority": 71
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§else var set§\\§package switch use§.as",
+    "class": "§package switch use§",
+    "packet_id": -1926185291,
+    "priority": 13
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§while var else§\\§var switch§.as",
+    "class": "§var switch§",
+    "packet_id": -1923286328,
+    "priority": 0
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214233704233717123423632234§\\§else catch set§.as",
+    "class": "§else catch set§",
+    "packet_id": -1922978824,
+    "priority": 79
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214238669238682123423632234§\\§for var super§.as",
+    "class": "§for var super§",
+    "packet_id": -1907971330,
+    "priority": 53
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214236404236417123423632234§\\§override set break§.as",
+    "class": "§override set break§",
+    "packet_id": -1897104567,
+    "priority": 22
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§if set case§\\§5214239014239027123423632234§.as",
+    "class": "§5214239014239027123423632234§",
+    "packet_id": -1895446889,
+    "priority": 18
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§catch super§\\§5214232923232936123423632234§.as",
+    "class": "§5214232923232936123423632234§",
+    "packet_id": -1889502569,
+    "priority": 74
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§else var set§\\§import package include§.as",
+    "class": "§import package include§",
+    "packet_id": -1885167992,
+    "priority": 13
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214233704233717123423632234§\\§521423111272311140123423632234§.as",
+    "class": "§521423111272311140123423632234§",
+    "packet_id": -1879289905,
+    "priority": 79
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§extends use finally§\\§521423112324123423632234§.as",
+    "class": "§521423112324123423632234§",
+    "packet_id": -1870108387,
+    "priority": 42
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423113572311370123423632234§\\§5214231488231501123423632234§.as",
+    "class": "§5214231488231501123423632234§",
+    "packet_id": -1864333717,
+    "priority": 4
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§52142339423407123423632234§\\§5214233444233457123423632234§.as",
+    "class": "§5214233444233457123423632234§",
+    "packet_id": -1859441081,
+    "priority": 16
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§false set while§\\§native set static§.as",
+    "class": "§native set static§",
+    "packet_id": -1851236532,
+    "priority": 15
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§52142339423407123423632234§\\§52142359923612123423632234§.as",
+    "class": "§52142359923612123423632234§",
+    "packet_id": -1850050333,
+    "priority": 16
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§false catch native§\\§null finally dynamic§.as",
+    "class": "§null finally dynamic§",
+    "packet_id": -1848001147,
+    "priority": 31
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§extends use finally§\\§5214237629237642123423632234§.as",
+    "class": "§5214237629237642123423632234§",
+    "packet_id": -1832611824,
+    "priority": 42
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214238669238682123423632234§\\§52142328623299123423632234§.as",
+    "class": "§52142328623299123423632234§",
+    "packet_id": -1823935471,
+    "priority": 53
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423113572311370123423632234§\\§5214239780239793123423632234§.as",
+    "class": "§5214239780239793123423632234§",
+    "packet_id": -1807685988,
+    "priority": 4
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423130102313023123423632234§\\§include for if§.as",
+    "class": "§include for if§",
+    "packet_id": -1805942142,
+    "priority": 51
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423113572311370123423632234§\\§5214233692233705123423632234§.as",
+    "class": "§5214233692233705123423632234§",
+    "packet_id": -1797047325,
+    "priority": 4
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§class const finally§\\§5214232815232828123423632234§.as",
+    "class": "§5214232815232828123423632234§",
+    "packet_id": -1767633906,
+    "priority": 59
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423114382311451123423632234§\\§521423107272310740123423632234§.as",
+    "class": "§521423107272310740123423632234§",
+    "packet_id": -1763914667,
+    "priority": 34
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§native var const§\\§52142392523938123423632234§.as",
+    "class": "§52142392523938123423632234§",
+    "packet_id": -1759063234,
+    "priority": 54
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214233704233717123423632234§\\§implements finally for§.as",
+    "class": "§",
+    "packet_id": -1752335888,
+    "priority": 79
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214237221237234123423632234§\\§521423109092310922123423632234§.as",
+    "class": "§521423109092310922123423632234§",
+    "packet_id": -1749108178,
+    "priority": 39
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423130102313023123423632234§\\§5214237628237641123423632234§.as",
+    "class": "§5214237628237641123423632234§",
+    "packet_id": -1723353904,
+    "priority": 51
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§true switch final§\\§5214233720233733123423632234§.as",
+    "class": "§5214233720233733123423632234§",
+    "packet_id": -1718053399,
+    "priority": 77
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§throw package override§\\§super switch catch§.as",
+    "class": "§super switch catch§",
+    "packet_id": -1715719586,
+    "priority": 3
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§finally switch super§\\§5214236297236310123423632234§.as",
+    "class": "§5214236297236310123423632234§",
+    "packet_id": -1712113407,
+    "priority": 26
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214236839236852123423632234§\\§52142376923782123423632234§.as",
+    "class": "§52142376923782123423632234§",
+    "packet_id": -1709511848,
+    "priority": 66
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§throw catch throw§\\§5214237067237080123423632234§.as",
+    "class": "§5214237067237080123423632234§",
+    "packet_id": -1702097572,
+    "priority": 33
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§implements switch switch§\\§finally const override§.as",
+    "class": "§finally const override§",
+    "packet_id": -1701488017,
+    "priority": 60
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214233704233717123423632234§\\§false each§.as",
+    "class": "§false each§",
+    "packet_id": -1692290741,
+    "priority": 79
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§null in§\\§false use continue§.as",
+    "class": "§false use continue§",
+    "packet_id": -1689876764,
+    "priority": 48
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214237221237234123423632234§\\§521423113922311405123423632234§.as",
+    "class": "§521423113922311405123423632234§",
+    "packet_id": -1683279062,
+    "priority": 39
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214237221237234123423632234§\\§implements throw§.as",
+    "class": "§",
+    "packet_id": -1672577397,
+    "priority": 39
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214238669238682123423632234§\\§for set class§.as",
+    "class": "§for set class§",
+    "packet_id": -1670466290,
+    "priority": 53
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423140272314040123423632234§\\§521423115672311580123423632234§.as",
+    "class": "§521423115672311580123423632234§",
+    "packet_id": -1670408519,
+    "priority": 6
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214231959231972123423632234§\\§in const set§.as",
+    "class": "§in const set§",
+    "packet_id": -1668779175,
+    "priority": 44
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423131802313193123423632234§\\§try set§.as",
+    "class": "§try set§",
+    "packet_id": -1654947652,
+    "priority": 56
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§function use super§\\§use const package§.as",
+    "class": "§use const package§",
+    "packet_id": -1643824092,
+    "priority": 36
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214237221237234123423632234§\\§throw finally var§.as",
+    "class": "§throw finally var§",
+    "packet_id": -1639713644,
+    "priority": 39
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423114382311451123423632234§\\§5214236254236267123423632234§.as",
+    "class": "§5214236254236267123423632234§",
+    "packet_id": -1638767166,
+    "priority": 34
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§catch super§\\§5214232639232652123423632234§.as",
+    "class": "§5214232639232652123423632234§",
+    "packet_id": -1616602030,
+    "priority": 74
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423122732312286123423632234§\\§5214238014238027123423632234§.as",
+    "class": "§5214238014238027123423632234§",
+    "packet_id": -1607756600,
+    "priority": 9
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§else var set§\\§5214236967236980123423632234§.as",
+    "class": "§5214236967236980123423632234§",
+    "packet_id": -1590185083,
+    "priority": 13
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§else var set§\\§521423103292310342123423632234§.as",
+    "class": "§521423103292310342123423632234§",
+    "packet_id": -1588006900,
+    "priority": 13
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423106452310658123423632234§\\§implements package else§.as",
+    "class": "§",
+    "packet_id": -1565553333,
+    "priority": 35
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§implements switch switch§\\§break var with§.as",
+    "class": "§break var with§",
+    "packet_id": -1548609916,
+    "priority": 60
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214235827235840123423632234§\\§finally var finally§.as",
+    "class": "§finally var finally§",
+    "packet_id": -1533422832,
+    "priority": 24
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§extends use switch§\\§521423125432312556123423632234§.as",
+    "class": "§521423125432312556123423632234§",
+    "packet_id": -1527013252,
+    "priority": 50
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423121442312157123423632234§\\§else switch get§.as",
+    "class": "§else switch get§",
+    "packet_id": -1524095870,
+    "priority": 78
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423114382311451123423632234§\\§5214231387231400123423632234§.as",
+    "class": "§5214231387231400123423632234§",
+    "packet_id": -1518850075,
+    "priority": 34
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§extends use switch§\\§5214231530231543123423632234§.as",
+    "class": "§5214231530231543123423632234§",
+    "packet_id": -1517837003,
+    "priority": 50
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214235827235840123423632234§\\§default for throw§.as",
+    "class": "§default for throw§",
+    "packet_id": -1507635228,
+    "priority": 24
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423114382311451123423632234§\\§catch import§.as",
+    "class": "§catch import§",
+    "packet_id": -1505530736,
+    "priority": 34
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214238160238173123423632234§\\§5214236649236662123423632234§.as",
+    "class": "§5214236649236662123423632234§",
+    "packet_id": -1491503394,
+    "priority": 30
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§else var set§\\§5214237854237867123423632234§.as",
+    "class": "§5214237854237867123423632234§",
+    "packet_id": -1490761936,
+    "priority": 13
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§extends use switch§\\§521423137552313768123423632234§.as",
+    "class": "§521423137552313768123423632234§",
+    "packet_id": -1487306515,
+    "priority": 50
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§override for const§\\§5214231339231352123423632234§.as",
+    "class": "§5214231339231352123423632234§",
+    "packet_id": -1481254568,
+    "priority": 67
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§else var set§\\§5214234424234437123423632234§.as",
+    "class": "§5214234424234437123423632234§",
+    "packet_id": -1457773660,
+    "priority": 13
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§52142339423407123423632234§\\§521423114342311447123423632234§.as",
+    "class": "§521423114342311447123423632234§",
+    "packet_id": -1455955413,
+    "priority": 16
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§implements switch switch§\\§throw const static§.as",
+    "class": "§throw const static§",
+    "packet_id": -1410197917,
+    "priority": 60
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§extends use switch§\\§false function§.as",
+    "class": "§false function§",
+    "packet_id": -1380283560,
+    "priority": 50
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214237221237234123423632234§\\§in finally set§.as",
+    "class": "§in finally set§",
+    "packet_id": -1378839846,
+    "priority": 39
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423130242313037123423632234§\\§521423122512312264123423632234§.as",
+    "class": "§521423122512312264123423632234§",
+    "packet_id": -1376947245,
+    "priority": 73
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§if set case§\\§521423108072310820123423632234§.as",
+    "class": "§521423108072310820123423632234§",
+    "packet_id": -1353047954,
+    "priority": 18
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§implements switch switch§\\§521423101052310118123423632234§.as",
+    "class": "§521423101052310118123423632234§",
+    "packet_id": -1346883037,
+    "priority": 60
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§implements switch switch§\\§5214231339231352123423632234§.as",
+    "class": "§5214231339231352123423632234§",
+    "packet_id": -1337059439,
+    "priority": 60
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§while use static§\\§5214235205235218123423632234§.as",
+    "class": "§5214235205235218123423632234§",
+    "packet_id": -1334002026,
+    "priority": 49
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214239350239363123423632234§\\§5214231197231210123423632234§.as",
+    "class": "§5214231197231210123423632234§",
+    "packet_id": -1331361684,
+    "priority": 61
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423111462311159123423632234§\\§5214231345231358123423632234§.as",
+    "class": "§5214231345231358123423632234§",
+    "packet_id": -1317889894,
+    "priority": 2
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§true switch final§\\§5214233779233792123423632234§.as",
+    "class": "§5214233779233792123423632234§",
+    "packet_id": -1315008610,
+    "priority": 77
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§throw catch throw§\\§super switch each§.as",
+    "class": "§super switch each§",
+    "packet_id": -1315002220,
+    "priority": 33
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§throw package super§\\§521423116122311625123423632234§.as",
+    "class": "§521423116122311625123423632234§",
+    "packet_id": -1302674105,
+    "priority": 23
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214232554232567123423632234§\\§try set§.as",
+    "class": "§try set§",
+    "packet_id": -1300958299,
+    "priority": 57
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214233704233717123423632234§\\§5214236665236678123423632234§.as",
+    "class": "§5214236665236678123423632234§",
+    "packet_id": -1298483664,
+    "priority": 79
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§function use super§\\§521423119472311960123423632234§.as",
+    "class": "§521423119472311960123423632234§",
+    "packet_id": -1291499147,
+    "priority": 36
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§throw catch throw§\\§521423110182311031123423632234§.as",
+    "class": "§521423110182311031123423632234§",
+    "packet_id": -1284211503,
+    "priority": 33
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§extends use finally§\\§if set import§.as",
+    "class": "§if set import§",
+    "packet_id": -1282406496,
+    "priority": 42
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423113572311370123423632234§\\§521423124202312433123423632234§.as",
+    "class": "§521423124202312433123423632234§",
+    "packet_id": -1282173466,
+    "priority": 4
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§switch switch override§\\§var set const§.as",
+    "class": "§var set const§",
+    "packet_id": -1277343167,
+    "priority": 8
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§catch catch get§\\§get package true§.as",
+    "class": "§get package true§",
+    "packet_id": -1271729363,
+    "priority": 55
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214233704233717123423632234§\\§5214232560232573123423632234§.as",
+    "class": "§5214232560232573123423632234§",
+    "packet_id": -1267250495,
+    "priority": 79
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214234442234455123423632234§\\§override catch switch§.as",
+    "class": "§override catch switch§",
+    "packet_id": -1266665816,
+    "priority": 19
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§null switch final§\\§5214236928236941123423632234§.as",
+    "class": "§5214236928236941123423632234§",
+    "packet_id": -1263520410,
+    "priority": 28
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§throw catch throw§\\§with use if§.as",
+    "class": "§with use if§",
+    "packet_id": -1263036614,
+    "priority": 33
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§else var set§\\§set switch each§.as",
+    "class": "§set switch each§",
+    "packet_id": -1258754138,
+    "priority": 13
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§else var set§\\§set package if§.as",
+    "class": "§set package if§",
+    "packet_id": -1241704092,
+    "priority": 13
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214231959231972123423632234§\\§5214231339231352123423632234§.as",
+    "class": "§5214231339231352123423632234§",
+    "packet_id": -1233891872,
+    "priority": 44
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423100822310095123423632234§\\§5214231339231352123423632234§.as",
+    "class": "§5214231339231352123423632234§",
+    "packet_id": -1232334539,
+    "priority": 75
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§extends use switch§\\§521423106272310640123423632234§.as",
+    "class": "§521423106272310640123423632234§",
+    "packet_id": -1222085753,
+    "priority": 50
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§52142364623659123423632234§\\§521423100122310025123423632234§.as",
+    "class": "§521423100122310025123423632234§",
+    "packet_id": -1205151619,
+    "priority": 41
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§in set native§\\§override var default§.as",
+    "class": "§override var default§",
+    "packet_id": -1200619383,
+    "priority": 62
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§throw package override§\\§super use get§.as",
+    "class": "§super use get§",
+    "packet_id": -1179390022,
+    "priority": 3
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214237390237403123423632234§\\§5214237104237117123423632234§.as",
+    "class": "§5214237104237117123423632234§",
+    "packet_id": -1176568376,
+    "priority": 27
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423131802313193123423632234§\\§5214232639232652123423632234§.as",
+    "class": "§5214232639232652123423632234§",
+    "packet_id": -1171353580,
+    "priority": 56
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§class const get§\\§default for if§.as",
+    "class": "§default for if§",
+    "packet_id": -1165230470,
+    "priority": 47
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423114382311451123423632234§\\§5214232722232735123423632234§.as",
+    "class": "§5214232722232735123423632234§",
+    "packet_id": -1154479430,
+    "priority": 34
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214233704233717123423632234§\\§final for do§.as",
+    "class": "§final for do§",
+    "packet_id": -1145619463,
+    "priority": 79
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§extends use finally§\\§52142385123864123423632234§.as",
+    "class": "§52142385123864123423632234§",
+    "packet_id": -1142938284,
+    "priority": 42
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214233704233717123423632234§\\§var package if§.as",
+    "class": "§var package if§",
+    "packet_id": -1137965580,
+    "priority": 79
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214235933235946123423632234§\\§5214233724233737123423632234§.as",
+    "class": "§5214233724233737123423632234§",
+    "packet_id": -1128606444,
+    "priority": 29
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214233704233717123423632234§\\§break switch throw§.as",
+    "class": "§break switch throw§",
+    "packet_id": -1123511676,
+    "priority": 79
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214233704233717123423632234§\\§in set do§.as",
+    "class": "§in set do§",
+    "packet_id": -1084454988,
+    "priority": 79
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§implements switch switch§\\§import for super§.as",
+    "class": "§import for super§",
+    "packet_id": -1073178885,
+    "priority": 60
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§null switch final§\\§5214239279239292123423632234§.as",
+    "class": "§5214239279239292123423632234§",
+    "packet_id": -1062190024,
+    "priority": 28
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§catch catch get§\\§5214231346231359123423632234§.as",
+    "class": "§5214231346231359123423632234§",
+    "packet_id": -1051248475,
+    "priority": 55
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§function use super§\\§extends set for§.as",
+    "class": "§",
+    "packet_id": -1047185003,
+    "priority": 36
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§false for switch§\\§5214237091237104123423632234§.as",
+    "class": "§5214237091237104123423632234§",
+    "packet_id": -1045406775,
+    "priority": 80
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§else var set§\\§catch switch import§.as",
+    "class": "§catch switch import§",
+    "packet_id": -1041660861,
+    "priority": 13
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§while use static§\\§static switch§.as",
+    "class": "§static switch§",
+    "packet_id": -1032328347,
+    "priority": 49
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§extends use finally§\\§throw catch break§.as",
+    "class": "§throw catch break§",
+    "packet_id": -1026428589,
+    "priority": 42
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423125662312579123423632234§\\§5214237067237080123423632234§.as",
+    "class": "§5214237067237080123423632234§",
+    "packet_id": -994817471,
+    "priority": 32
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§function use super§\\§implements const§.as",
+    "class": "§",
+    "packet_id": -985579124,
+    "priority": 36
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§extends switch native§\\§null package else§.as",
+    "class": "§null package else§",
+    "packet_id": -983139626,
+    "priority": 14
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§if set case§\\§true switch case§.as",
+    "class": "§true switch case§",
+    "packet_id": -962759489,
+    "priority": 18
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423121442312157123423632234§\\§5214231339231352123423632234§.as",
+    "class": "§5214231339231352123423632234§",
+    "packet_id": -959048700,
+    "priority": 78
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214233704233717123423632234§\\§5214231972231985123423632234§.as",
+    "class": "§5214231972231985123423632234§",
+    "packet_id": -930926299,
+    "priority": 79
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§null switch final§\\§implements const§.as",
+    "class": "§",
+    "packet_id": -920985123,
+    "priority": 28
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423121442312157123423632234§\\§5214235890235903123423632234§.as",
+    "class": "§5214235890235903123423632234§",
+    "packet_id": -915079427,
+    "priority": 78
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§class const finally§\\§521423109282310941123423632234§.as",
+    "class": "§521423109282310941123423632234§",
+    "packet_id": -911983090,
+    "priority": 59
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§throw catch throw§\\§521423115472311560123423632234§.as",
+    "class": "§521423115472311560123423632234§",
+    "packet_id": -911626491,
+    "priority": 33
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§override for const§\\§5214234844234857123423632234§.as",
+    "class": "§5214234844234857123423632234§",
+    "packet_id": -907657573,
+    "priority": 67
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§catch super§\\§class switch override§.as",
+    "class": "§class switch override§",
+    "packet_id": -891286317,
+    "priority": 74
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§throw catch throw§\\§5214235570235583123423632234§.as",
+    "class": "§5214235570235583123423632234§",
+    "packet_id": -879771375,
+    "priority": 33
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214239385239398123423632234§\\§5214239049239062123423632234§.as",
+    "class": "§5214239049239062123423632234§",
+    "packet_id": -875418096,
+    "priority": 21
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214234442234455123423632234§\\§package var switch§.as",
+    "class": "§package var switch§",
+    "packet_id": -867767128,
+    "priority": 19
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§false set while§\\§521423126432312656123423632234§.as",
+    "class": "§521423126432312656123423632234§",
+    "packet_id": -864265623,
+    "priority": 15
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214238105238118123423632234§\\§use const super§.as",
+    "class": "§use const super§",
+    "packet_id": -845588810,
+    "priority": 1
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214238160238173123423632234§\\§5214231339231352123423632234§.as",
+    "class": "§5214231339231352123423632234§",
+    "packet_id": -838186985,
+    "priority": 30
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214233704233717123423632234§\\§set use package§.as",
+    "class": "§set use package§",
+    "packet_id": -832301915,
+    "priority": 79
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§throw catch throw§\\§5214237771237784123423632234§.as",
+    "class": "§5214237771237784123423632234§",
+    "packet_id": -831998018,
+    "priority": 33
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214235827235840123423632234§\\§5214237981237994123423632234§.as",
+    "class": "§5214237981237994123423632234§",
+    "packet_id": -822981766,
+    "priority": 24
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214235827235840123423632234§\\§extends set set§.as",
+    "class": "§",
+    "packet_id": -822403331,
+    "priority": 24
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423140272314040123423632234§\\§5214232208232221123423632234§.as",
+    "class": "§5214232208232221123423632234§",
+    "packet_id": -819536476,
+    "priority": 6
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423114382311451123423632234§\\§5214237104237117123423632234§.as",
+    "class": "§5214237104237117123423632234§",
+    "packet_id": -803365239,
+    "priority": 34
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§implements switch switch§\\§521423121422312155123423632234§.as",
+    "class": "§521423121422312155123423632234§",
+    "packet_id": -773473371,
+    "priority": 60
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§true switch final§\\§break catch implements§.as",
+    "class": "§break catch",
+    "packet_id": -769104327,
+    "priority": 77
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214237521237534123423632234§\\§function if§.as",
+    "class": "§function if§",
+    "packet_id": -762658127,
+    "priority": 76
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423125662312579123423632234§\\§case use throw§.as",
+    "class": "§case use throw§",
+    "packet_id": -751613832,
+    "priority": 32
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§function use super§\\§5214238755238768123423632234§.as",
+    "class": "§5214238755238768123423632234§",
+    "packet_id": -745598420,
+    "priority": 36
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§while var else§\\§5214233890233903123423632234§.as",
+    "class": "§5214233890233903123423632234§",
+    "packet_id": -739684591,
+    "priority": 0
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§throw package super§\\§5214238675238688123423632234§.as",
+    "class": "§5214238675238688123423632234§",
+    "packet_id": -731115522,
+    "priority": 23
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214235827235840123423632234§\\§5214235799235812123423632234§.as",
+    "class": "§5214235799235812123423632234§",
+    "packet_id": -714487273,
+    "priority": 24
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§else var set§\\§else class§.as",
+    "class": "§else class§",
+    "packet_id": -707501253,
+    "priority": 13
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§switch switch override§\\§dynamic package case§.as",
+    "class": "§dynamic package case§",
+    "packet_id": -706679202,
+    "priority": 8
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214233704233717123423632234§\\§5214236678236691123423632234§.as",
+    "class": "§5214236678236691123423632234§",
+    "packet_id": -705969616,
+    "priority": 79
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§throw catch throw§\\§521423117362311749123423632234§.as",
+    "class": "§521423117362311749123423632234§",
+    "packet_id": -698399183,
+    "priority": 33
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§while use static§\\§5214235257235270123423632234§.as",
+    "class": "§5214235257235270123423632234§",
+    "packet_id": -671618989,
+    "priority": 49
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214232933232946123423632234§\\§try package get§.as",
+    "class": "§try package get§",
+    "packet_id": -666893269,
+    "priority": 65
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§false for switch§\\§break const while§.as",
+    "class": "§break const while§",
+    "packet_id": -662400123,
+    "priority": 80
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§true switch final§\\§case catch var§.as",
+    "class": "§case catch var§",
+    "packet_id": -660369751,
+    "priority": 77
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§switch switch override§\\§false set in§.as",
+    "class": "§false set in§",
+    "packet_id": -653665247,
+    "priority": 8
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214239350239363123423632234§\\§5214231339231352123423632234§.as",
+    "class": "§5214231339231352123423632234§",
+    "packet_id": -643105296,
+    "priority": 61
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423106452310658123423632234§\\§if for const§.as",
+    "class": "§if for const§",
+    "packet_id": -635715470,
+    "priority": 35
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§in set native§\\§else for extends§.as",
+    "class": "§else for",
+    "packet_id": -624217047,
+    "priority": 62
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214233704233717123423632234§\\§native package class§.as",
+    "class": "§native package class§",
+    "packet_id": -614563927,
+    "priority": 79
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214238160238173123423632234§\\§do case§.as",
+    "class": "§do case§",
+    "packet_id": -614313838,
+    "priority": 30
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214237221237234123423632234§\\§521423128612312874123423632234§.as",
+    "class": "§521423128612312874123423632234§",
+    "packet_id": -611961116,
+    "priority": 39
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§extends switch native§\\§5214238924238937123423632234§.as",
+    "class": "§5214238924238937123423632234§",
+    "packet_id": -604091695,
+    "priority": 14
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§throw catch throw§\\§override for super§.as",
+    "class": "§override for super§",
+    "packet_id": -602527073,
+    "priority": 33
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§in var each§\\§5214231893231906123423632234§.as",
+    "class": "§5214231893231906123423632234§",
+    "packet_id": -600078553,
+    "priority": 7
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214235933235946123423632234§\\§52142313523148123423632234§.as",
+    "class": "§52142313523148123423632234§",
+    "packet_id": -593513288,
+    "priority": 29
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214236695236708123423632234§\\§continue else§.as",
+    "class": "§continue else§",
+    "packet_id": -593368100,
+    "priority": 12
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214236404236417123423632234§\\§5214231339231352123423632234§.as",
+    "class": "§5214231339231352123423632234§",
+    "packet_id": -583564465,
+    "priority": 22
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§throw package override§\\§var switch final§.as",
+    "class": "§var switch final§",
+    "packet_id": -570114058,
+    "priority": 3
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214238729238742123423632234§\\§5214232106232119123423632234§.as",
+    "class": "§5214232106232119123423632234§",
+    "packet_id": -555602629,
+    "priority": 45
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214236404236417123423632234§\\§var switch final§.as",
+    "class": "§var switch final§",
+    "packet_id": -541741971,
+    "priority": 22
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§try set package§\\§521423134612313474123423632234§.as",
+    "class": "§521423134612313474123423632234§",
+    "packet_id": -541655881,
+    "priority": 70
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§extends use switch§\\§5214235440235453123423632234§.as",
+    "class": "§5214235440235453123423632234§",
+    "packet_id": -534192254,
+    "priority": 50
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423114382311451123423632234§\\§5214231996232009123423632234§.as",
+    "class": "§5214231996232009123423632234§",
+    "packet_id": -523392052,
+    "priority": 34
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§catch super§\\§5214233173233186123423632234§.as",
+    "class": "§5214233173233186123423632234§",
+    "packet_id": -520655432,
+    "priority": 74
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§52142339423407123423632234§\\§5214235404235417123423632234§.as",
+    "class": "§5214235404235417123423632234§",
+    "packet_id": -511004908,
+    "priority": 16
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§default set include§\\§5214232808232821123423632234§.as",
+    "class": "§5214232808232821123423632234§",
+    "packet_id": -502907094,
+    "priority": 43
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214231959231972123423632234§\\§5214237351237364123423632234§.as",
+    "class": "§5214237351237364123423632234§",
+    "packet_id": -497293992,
+    "priority": 44
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214233704233717123423632234§\\§52142341523428123423632234§.as",
+    "class": "§52142341523428123423632234§",
+    "packet_id": -486536370,
+    "priority": 79
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§native var const§\\§for var super§.as",
+    "class": "§for var super§",
+    "packet_id": -484994657,
+    "priority": 54
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423130102313023123423632234§\\§52142328623299123423632234§.as",
+    "class": "§52142328623299123423632234§",
+    "packet_id": -482023661,
+    "priority": 51
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423110712311084123423632234§\\§case switch in§.as",
+    "class": "§case switch in§",
+    "packet_id": -479046431,
+    "priority": 17
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§return const native§\\§5214237332237345123423632234§.as",
+    "class": "§5214237332237345123423632234§",
+    "packet_id": -478572181,
+    "priority": 11
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423114382311451123423632234§\\§implements switch null§.as",
+    "class": "§",
+    "packet_id": -471022967,
+    "priority": 34
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§implements switch switch§\\§do const try§.as",
+    "class": "§do const try§",
+    "packet_id": -456245145,
+    "priority": 60
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214239350239363123423632234§\\§while package final§.as",
+    "class": "§while package final§",
+    "packet_id": -449356094,
+    "priority": 61
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§else var set§\\§5214232898232911123423632234§.as",
+    "class": "§5214232898232911123423632234§",
+    "packet_id": -437587751,
+    "priority": 13
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§extends use switch§\\§521423105432310556123423632234§.as",
+    "class": "§521423105432310556123423632234§",
+    "packet_id": -380595194,
+    "priority": 50
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214233704233717123423632234§\\§set get§.as",
+    "class": "§set get§",
+    "packet_id": -378947621,
+    "priority": 79
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§throw catch throw§\\§if switch implements§.as",
+    "class": "§if switch",
+    "packet_id": -375282889,
+    "priority": 33
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423140272314040123423632234§\\§const switch override§.as",
+    "class": "§const switch override§",
+    "packet_id": -373510957,
+    "priority": 6
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§native var const§\\§try const catch§.as",
+    "class": "§try const catch§",
+    "packet_id": -369590613,
+    "priority": 54
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§extends use switch§\\§include case§.as",
+    "class": "§include case§",
+    "packet_id": -367760678,
+    "priority": 50
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423140272314040123423632234§\\§super finally set§.as",
+    "class": "§super finally set§",
+    "packet_id": -349828108,
+    "priority": 6
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§throw catch throw§\\§521423113582311371123423632234§.as",
+    "class": "§521423113582311371123423632234§",
+    "packet_id": -344514517,
+    "priority": 33
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214233704233717123423632234§\\§if package do§.as",
+    "class": "§if package do§",
+    "packet_id": -344258352,
+    "priority": 79
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423130102313023123423632234§\\§for set class§.as",
+    "class": "§for set class§",
+    "packet_id": -328554480,
+    "priority": 51
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423107152310728123423632234§\\§if set import§.as",
+    "class": "§if set import§",
+    "packet_id": -325434725,
+    "priority": 71
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214236404236417123423632234§\\§5214239672239685123423632234§.as",
+    "class": "§5214239672239685123423632234§",
+    "packet_id": -324894035,
+    "priority": 22
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§false catch native§\\§implements const§.as",
+    "class": "§",
+    "packet_id": -324155151,
+    "priority": 31
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§package const return§\\§521423115392311552123423632234§.as",
+    "class": "§521423115392311552123423632234§",
+    "packet_id": -322235316,
+    "priority": 25
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214233704233717123423632234§\\§5214236967236980123423632234§.as",
+    "class": "§5214236967236980123423632234§",
+    "packet_id": -304905793,
+    "priority": 79
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214237221237234123423632234§\\§default false§.as",
+    "class": "§default false§",
+    "packet_id": -301298508,
+    "priority": 39
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423114382311451123423632234§\\§return set§.as",
+    "class": "§return set§",
+    "packet_id": -300370823,
+    "priority": 34
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423100822310095123423632234§\\§null static§.as",
+    "class": "§null static§",
+    "packet_id": -296048697,
+    "priority": 75
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423122732312286123423632234§\\§5214232727232740123423632234§.as",
+    "class": "§5214232727232740123423632234§",
+    "packet_id": -262455387,
+    "priority": 9
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214232251232264123423632234§\\§5214231339231352123423632234§.as",
+    "class": "§5214231339231352123423632234§",
+    "packet_id": -260270890,
+    "priority": 68
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423114382311451123423632234§\\§each catch set§.as",
+    "class": "§each catch set§",
+    "packet_id": -255516505,
+    "priority": 34
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§catch catch get§\\§false for extends§.as",
+    "class": "§false for",
+    "packet_id": -248693565,
+    "priority": 55
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§in set native§\\§5214231339231352123423632234§.as",
+    "class": "§5214231339231352123423632234§",
+    "packet_id": -226978906,
+    "priority": 62
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§else var set§\\§5214239788239801123423632234§.as",
+    "class": "§5214239788239801123423632234§",
+    "packet_id": -221757454,
+    "priority": 13
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214235827235840123423632234§\\§5214239450239463123423632234§.as",
+    "class": "§5214239450239463123423632234§",
+    "packet_id": -196636211,
+    "priority": 24
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§break use include§\\§5214235205235218123423632234§.as",
+    "class": "§5214235205235218123423632234§",
+    "packet_id": -190359403,
+    "priority": 52
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§class const finally§\\§throw do§.as",
+    "class": "§throw do§",
+    "packet_id": -173682854,
+    "priority": 59
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214237521237534123423632234§\\§case use dynamic§.as",
+    "class": "§case use dynamic§",
+    "packet_id": -169921234,
+    "priority": 76
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423125662312579123423632234§\\§import const continue§.as",
+    "class": "§import const continue§",
+    "packet_id": -169305322,
+    "priority": 32
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423114382311451123423632234§\\§5214231332231345123423632234§.as",
+    "class": "§5214231332231345123423632234§",
+    "packet_id": -163691268,
+    "priority": 34
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423114382311451123423632234§\\§with for function§.as",
+    "class": "§with for function§",
+    "packet_id": -161726525,
+    "priority": 34
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423130102313023123423632234§\\§for var super§.as",
+    "class": "§for var super§",
+    "packet_id": -159686980,
+    "priority": 51
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214237221237234123423632234§\\§52142328423297123423632234§.as",
+    "class": "§52142328423297123423632234§",
+    "packet_id": -157204477,
+    "priority": 39
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§function use super§\\§5214231339231352123423632234§.as",
+    "class": "§5214231339231352123423632234§",
+    "packet_id": -152638117,
+    "priority": 36
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§else var set§\\§in for super§.as",
+    "class": "§in for super§",
+    "packet_id": -139645601,
+    "priority": 13
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§default set include§\\§5214231339231352123423632234§.as",
+    "class": "§5214231339231352123423632234§",
+    "packet_id": -137249251,
+    "priority": 43
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§break use include§\\§get use false§.as",
+    "class": "§get use false§",
+    "packet_id": -136344740,
+    "priority": 52
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214238669238682123423632234§\\§try const catch§.as",
+    "class": "§try const catch§",
+    "packet_id": -118119523,
+    "priority": 53
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§if set case§\\§null switch break§.as",
+    "class": "§null switch break§",
+    "packet_id": -117055417,
+    "priority": 18
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214237221237234123423632234§\\§5214238060238073123423632234§.as",
+    "class": "§5214238060238073123423632234§",
+    "packet_id": -114968993,
+    "priority": 39
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§throw package override§\\§throw use implements§.as",
+    "class": "§throw use",
+    "packet_id": -87665118,
+    "priority": 3
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423113572311370123423632234§\\§get for const§.as",
+    "class": "§get for const§",
+    "packet_id": -82304134,
+    "priority": 4
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423131802313193123423632234§\\§5214233173233186123423632234§.as",
+    "class": "§5214233173233186123423632234§",
+    "packet_id": -75406982,
+    "priority": 56
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214237221237234123423632234§\\§521423132392313252123423632234§.as",
+    "class": "§521423132392313252123423632234§",
+    "packet_id": -64696933,
+    "priority": 39
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214237390237403123423632234§\\§521423112242311237123423632234§.as",
+    "class": "§521423112242311237123423632234§",
+    "packet_id": -47424608,
+    "priority": 27
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423130102313023123423632234§\\§try const catch§.as",
+    "class": "§try const catch§",
+    "packet_id": -44282936,
+    "priority": 51
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214237221237234123423632234§\\§native package continue§.as",
+    "class": "§native package continue§",
+    "packet_id": -42520728,
+    "priority": 39
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214236404236417123423632234§\\§continue use false§.as",
+    "class": "§continue use false§",
+    "packet_id": -20513325,
+    "priority": 22
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214235827235840123423632234§\\§5214237358237371123423632234§.as",
+    "class": "§5214237358237371123423632234§",
+    "packet_id": -20486732,
+    "priority": 24
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§native var const§\\§include for if§.as",
+    "class": "§include for if§",
+    "packet_id": -18176641,
+    "priority": 54
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423122732312286123423632234§\\§try var import§.as",
+    "class": "§try var import§",
+    "packet_id": -16447159,
+    "priority": 9
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§throw catch throw§\\§521423104382310451123423632234§.as",
+    "class": "§521423104382310451123423632234§",
+    "packet_id": -10847382,
+    "priority": 33
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214233704233717123423632234§\\§5214232653232666123423632234§.as",
+    "class": "§5214232653232666123423632234§",
+    "packet_id": -2875943,
+    "priority": 79
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214237221237234123423632234§\\§use use break§.as",
+    "class": "§use use break§",
+    "packet_id": 4552232,
+    "priority": 39
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§extends use switch§\\§if use try§.as",
+    "class": "§if use try§",
+    "packet_id": 11992250,
+    "priority": 50
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214238196238209123423632234§\\§5214234814234827123423632234§.as",
+    "class": "§5214234814234827123423632234§",
+    "packet_id": 29211250,
+    "priority": 72
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§static package in§\\§5214232106232119123423632234§.as",
+    "class": "§5214232106232119123423632234§",
+    "packet_id": 34068208,
+    "priority": 46
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§else var set§\\§super var null§.as",
+    "class": "§super var null§",
+    "packet_id": 84050355,
+    "priority": 13
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214233704233717123423632234§\\§break set function§.as",
+    "class": "§break set function§",
+    "packet_id": 90109270,
+    "priority": 79
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§while var else§\\§do use in§.as",
+    "class": "§do use in§",
+    "packet_id": 103812952,
+    "priority": 0
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§throw catch throw§\\§case use in§.as",
+    "class": "§case use in§",
+    "packet_id": 118447426,
+    "priority": 33
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214238160238173123423632234§\\§implements use break§.as",
+    "class": "§",
+    "packet_id": 120401338,
+    "priority": 30
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§else var set§\\§5214239957239970123423632234§.as",
+    "class": "§5214239957239970123423632234§",
+    "packet_id": 126880779,
+    "priority": 13
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214235827235840123423632234§\\§5214235541235554123423632234§.as",
+    "class": "§5214235541235554123423632234§",
+    "packet_id": 133238100,
+    "priority": 24
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§catch super§\\§5214234004234017123423632234§.as",
+    "class": "§5214234004234017123423632234§",
+    "packet_id": 133452238,
+    "priority": 74
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214237521237534123423632234§\\§else package for§.as",
+    "class": "§else package for§",
+    "packet_id": 138698791,
+    "priority": 76
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423107152310728123423632234§\\§throw catch break§.as",
+    "class": "§throw catch break§",
+    "packet_id": 142177784,
+    "priority": 71
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214235827235840123423632234§\\§extends const finally§.as",
+    "class": "§",
+    "packet_id": 147737736,
+    "priority": 24
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§native true§\\§import package final§.as",
+    "class": "§import package final§",
+    "packet_id": 150222118,
+    "priority": 10
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§false use if§\\§521423126612312674123423632234§.as",
+    "class": "§521423126612312674123423632234§",
+    "packet_id": 162656882,
+    "priority": 40
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§null switch final§\\§5214231339231352123423632234§.as",
+    "class": "§5214231339231352123423632234§",
+    "packet_id": 178154988,
+    "priority": 28
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214232563232576123423632234§\\§5214231339231352123423632234§.as",
+    "class": "§5214231339231352123423632234§",
+    "packet_id": 183561709,
+    "priority": 64
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423134842313497123423632234§\\§throw use try§.as",
+    "class": "§throw use try§",
+    "packet_id": 184934482,
+    "priority": 5
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§function use super§\\§521423362349123423632234§.as",
+    "class": "§521423362349123423632234§",
+    "packet_id": 201628290,
+    "priority": 36
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§function use super§\\§else var switch§.as",
+    "class": "§else var switch§",
+    "packet_id": 228171466,
+    "priority": 36
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§while use static§\\§52142339923412123423632234§.as",
+    "class": "§52142339923412123423632234§",
+    "packet_id": 229267683,
+    "priority": 49
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§catch catch get§\\§5214238005238018123423632234§.as",
+    "class": "§5214238005238018123423632234§",
+    "packet_id": 244072998,
+    "priority": 55
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§break use include§\\§52142367723690123423632234§.as",
+    "class": "§52142367723690123423632234§",
+    "packet_id": 259979915,
+    "priority": 52
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214237221237234123423632234§\\§5214235041235054123423632234§.as",
+    "class": "§5214235041235054123423632234§",
+    "packet_id": 268832557,
+    "priority": 39
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§in set native§\\§5214233188233201123423632234§.as",
+    "class": "§5214233188233201123423632234§",
+    "packet_id": 272183855,
+    "priority": 62
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§catch super§\\§function var get§.as",
+    "class": "§function var get§",
+    "packet_id": 299028276,
+    "priority": 74
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423134842313497123423632234§\\§5214232648232661123423632234§.as",
+    "class": "§5214232648232661123423632234§",
+    "packet_id": 312571157,
+    "priority": 5
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423140272314040123423632234§\\§5214231339231352123423632234§.as",
+    "class": "§5214231339231352123423632234§",
+    "packet_id": 321971701,
+    "priority": 6
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214234442234455123423632234§\\§get catch case§.as",
+    "class": "§get catch case§",
+    "packet_id": 326032325,
+    "priority": 19
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214237221237234123423632234§\\§false for default§.as",
+    "class": "§false for default§",
+    "packet_id": 329279865,
+    "priority": 39
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§native var const§\\§5214233779233792123423632234§.as",
+    "class": "§5214233779233792123423632234§",
+    "packet_id": 346830254,
+    "priority": 54
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423110712311084123423632234§\\§use for override§.as",
+    "class": "§use for override§",
+    "packet_id": 377959142,
+    "priority": 17
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§catch catch get§\\§5214231359231372123423632234§.as",
+    "class": "§5214231359231372123423632234§",
+    "packet_id": 381067984,
+    "priority": 55
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214233704233717123423632234§\\§throw switch null§.as",
+    "class": "§throw switch null§",
+    "packet_id": 405171321,
+    "priority": 79
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§false set while§\\§catch const do§.as",
+    "class": "§catch const do§",
+    "packet_id": 415207851,
+    "priority": 15
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§function use super§\\§switch catch dynamic§.as",
+    "class": "§switch catch dynamic§",
+    "packet_id": 417965410,
+    "priority": 36
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§switch switch override§\\§521423109972311010123423632234§.as",
+    "class": "§521423109972311010123423632234§",
+    "packet_id": 427083290,
+    "priority": 8
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§switch switch override§\\§native switch dynamic§.as",
+    "class": "§native switch dynamic§",
+    "packet_id": 442888643,
+    "priority": 8
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423134842313497123423632234§\\§521423125522312565123423632234§.as",
+    "class": "§521423125522312565123423632234§",
+    "packet_id": 444933603,
+    "priority": 5
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423129692312982123423632234§\\§native var final§.as",
+    "class": "§native var final§",
+    "packet_id": 446781737,
+    "priority": 37
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214233704233717123423632234§\\§false use class§.as",
+    "class": "§false use class§",
+    "packet_id": 459991202,
+    "priority": 79
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214232933232946123423632234§\\§include finally catch§.as",
+    "class": "§include finally catch§",
+    "packet_id": 463494974,
+    "priority": 65
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§try set package§\\§static switch§.as",
+    "class": "§static switch§",
+    "packet_id": 471157826,
+    "priority": 70
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423125662312579123423632234§\\§catch function§.as",
+    "class": "§catch function§",
+    "packet_id": 504016996,
+    "priority": 32
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423134842313497123423632234§\\§5214236395236408123423632234§.as",
+    "class": "§5214236395236408123423632234§",
+    "packet_id": 509394385,
+    "priority": 5
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423129692312982123423632234§\\§5214231339231352123423632234§.as",
+    "class": "§5214231339231352123423632234§",
+    "packet_id": 522993449,
+    "priority": 37
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§throw catch throw§\\§521423126112312624123423632234§.as",
+    "class": "§521423126112312624123423632234§",
+    "packet_id": 546722394,
+    "priority": 33
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§while use static§\\§class set super§.as",
+    "class": "§class set super§",
+    "packet_id": 546849203,
+    "priority": 49
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§false catch native§\\§finally set catch§.as",
+    "class": "§finally set catch§",
+    "packet_id": 552006706,
+    "priority": 31
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§else var set§\\§5214234791234804123423632234§.as",
+    "class": "§5214234791234804123423632234§",
+    "packet_id": 553380510,
+    "priority": 13
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423129692312982123423632234§\\§else use final§.as",
+    "class": "§else use final§",
+    "packet_id": 560336625,
+    "priority": 37
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214231959231972123423632234§\\§while for case§.as",
+    "class": "§while for case§",
+    "packet_id": 561771020,
+    "priority": 44
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214238160238173123423632234§\\§5214239332239345123423632234§.as",
+    "class": "§5214239332239345123423632234§",
+    "packet_id": 566338297,
+    "priority": 30
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214238160238173123423632234§\\§521423140192314032123423632234§.as",
+    "class": "§521423140192314032123423632234§",
+    "packet_id": 566652736,
+    "priority": 30
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214237221237234123423632234§\\§for return§.as",
+    "class": "§for return§",
+    "packet_id": 581377054,
+    "priority": 39
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214237521237534123423632234§\\§catch use include§.as",
+    "class": "§catch use include§",
+    "packet_id": 590892690,
+    "priority": 76
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214235827235840123423632234§\\§if return§.as",
+    "class": "§if return§",
+    "packet_id": 600420685,
+    "priority": 24
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214239350239363123423632234§\\§5214234119234132123423632234§.as",
+    "class": "§5214234119234132123423632234§",
+    "packet_id": 606668848,
+    "priority": 61
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214235827235840123423632234§\\§5214231339231352123423632234§.as",
+    "class": "§5214231339231352123423632234§",
+    "packet_id": 613462801,
+    "priority": 24
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§else var set§\\§521423109542310967123423632234§.as",
+    "class": "§521423109542310967123423632234§",
+    "packet_id": 614714702,
+    "priority": 13
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§else var set§\\§use catch while§.as",
+    "class": "§use catch while§",
+    "packet_id": 641950429,
+    "priority": 13
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§else var set§\\§const var with§.as",
+    "class": "§const var with§",
+    "packet_id": 650923390,
+    "priority": 13
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214235827235840123423632234§\\§finally const true§.as",
+    "class": "§finally const true§",
+    "packet_id": 652872053,
+    "priority": 24
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214238105238118123423632234§\\§case package false§.as",
+    "class": "§case package false§",
+    "packet_id": 655372891,
+    "priority": 1
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214235827235840123423632234§\\§do package for§.as",
+    "class": "§do package for§",
+    "packet_id": 668890771,
+    "priority": 24
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§true switch final§\\§break use false§.as",
+    "class": "§break use false§",
+    "packet_id": 689549452,
+    "priority": 77
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§null in§\\§5214237351237364123423632234§.as",
+    "class": "§5214237351237364123423632234§",
+    "packet_id": 696140460,
+    "priority": 48
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§null switch final§\\§null const function§.as",
+    "class": "§null const function§",
+    "packet_id": 705454610,
+    "priority": 28
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423134842313497123423632234§\\§implements use switch§.as",
+    "class": "§",
+    "packet_id": 714838911,
+    "priority": 5
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423129692312982123423632234§\\§521423113582311371123423632234§.as",
+    "class": "§521423113582311371123423632234§",
+    "packet_id": 732434644,
+    "priority": 37
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§null switch final§\\§5214234372234385123423632234§.as",
+    "class": "§5214234372234385123423632234§",
+    "packet_id": 744948472,
+    "priority": 28
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423122732312286123423632234§\\§521423120142312027123423632234§.as",
+    "class": "§521423120142312027123423632234§",
+    "packet_id": 762959326,
+    "priority": 9
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§extends use finally§\\§5214231339231352123423632234§.as",
+    "class": "§5214231339231352123423632234§",
+    "packet_id": 789790814,
+    "priority": 42
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§false catch native§\\§5214233294233307123423632234§.as",
+    "class": "§5214233294233307123423632234§",
+    "packet_id": 802300608,
+    "priority": 31
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214234442234455123423632234§\\§do var extends§.as",
+    "class": "§do var",
+    "packet_id": 809822533,
+    "priority": 19
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§false set while§\\§default use do§.as",
+    "class": "§default use do§",
+    "packet_id": 810713262,
+    "priority": 15
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§false set while§\\§package switch use§.as",
+    "class": "§package switch use§",
+    "packet_id": 814687528,
+    "priority": 15
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214233704233717123423632234§\\§each for else§.as",
+    "class": "§each for else§",
+    "packet_id": 819097883,
+    "priority": 79
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214237521237534123423632234§\\§5214231339231352123423632234§.as",
+    "class": "§5214231339231352123423632234§",
+    "packet_id": 832270655,
+    "priority": 76
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§false set while§\\§5214231339231352123423632234§.as",
+    "class": "§5214231339231352123423632234§",
+    "packet_id": 834877801,
+    "priority": 15
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§else var set§\\§final for each§.as",
+    "class": "§final for each§",
+    "packet_id": 837875576,
+    "priority": 13
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§extends use switch§\\§try const break§.as",
+    "class": "§try const break§",
+    "packet_id": 843751647,
+    "priority": 50
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§throw package super§\\§while finally function§.as",
+    "class": "§while finally function§",
+    "packet_id": 850220815,
+    "priority": 23
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214239385239398123423632234§\\§521423115392311552123423632234§.as",
+    "class": "§521423115392311552123423632234§",
+    "packet_id": 855420488,
+    "priority": 21
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§null in§\\§case switch true§.as",
+    "class": "§case switch true§",
+    "packet_id": 862913394,
+    "priority": 48
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§function use super§\\§5214239723239736123423632234§.as",
+    "class": "§5214239723239736123423632234§",
+    "packet_id": 870278784,
+    "priority": 36
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214237221237234123423632234§\\§import var var§.as",
+    "class": "§import var var§",
+    "packet_id": 875259457,
+    "priority": 39
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§52142339423407123423632234§\\§5214239590239603123423632234§.as",
+    "class": "§5214239590239603123423632234§",
+    "packet_id": 880756819,
+    "priority": 16
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214234442234455123423632234§\\§override use catch§.as",
+    "class": "§override use catch§",
+    "packet_id": 885055495,
+    "priority": 19
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423122732312286123423632234§\\§5214235798235811123423632234§.as",
+    "class": "§5214235798235811123423632234§",
+    "packet_id": 903498755,
+    "priority": 9
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§native true§\\§521423111732311186123423632234§.as",
+    "class": "§521423111732311186123423632234§",
+    "packet_id": 907073245,
+    "priority": 10
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423100822310095123423632234§\\§5214231159231172123423632234§.as",
+    "class": "§5214231159231172123423632234§",
+    "packet_id": 921004371,
+    "priority": 75
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214233704233717123423632234§\\§set use override§.as",
+    "class": "§set use override§",
+    "packet_id": 924070374,
+    "priority": 79
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214236058236071123423632234§\\§5214231339231352123423632234§.as",
+    "class": "§5214231339231352123423632234§",
+    "packet_id": 930618015,
+    "priority": 63
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214238105238118123423632234§\\§finally set§.as",
+    "class": "§finally set§",
+    "packet_id": 932564569,
+    "priority": 1
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214239350239363123423632234§\\§null const function§.as",
+    "class": "§null const function§",
+    "packet_id": 945463181,
+    "priority": 61
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214238160238173123423632234§\\§521423132702313283123423632234§.as",
+    "class": "§521423132702313283123423632234§",
+    "packet_id": 947161947,
+    "priority": 30
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214233704233717123423632234§\\§include switch implements§.as",
+    "class": "§include switch",
+    "packet_id": 947733823,
+    "priority": 79
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214234442234455123423632234§\\§package final§.as",
+    "class": "§package final§",
+    "packet_id": 956252237,
+    "priority": 19
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§break use include§\\§static switch§.as",
+    "class": "§static switch§",
+    "packet_id": 958509220,
+    "priority": 52
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423131802313193123423632234§\\§5214234004234017123423632234§.as",
+    "class": "§5214234004234017123423632234§",
+    "packet_id": 979099084,
+    "priority": 56
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§catch catch get§\\§class for native§.as",
+    "class": "§class for native§",
+    "packet_id": 981035905,
+    "priority": 55
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§false use if§\\§5214234771234784123423632234§.as",
+    "class": "§5214234771234784123423632234§",
+    "packet_id": 988664577,
+    "priority": 40
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§switch switch override§\\§5214234494234507123423632234§.as",
+    "class": "§5214234494234507123423632234§",
+    "packet_id": 1003297349,
+    "priority": 8
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214233704233717123423632234§\\§in package const§.as",
+    "class": "§in package const§",
+    "packet_id": 1010729260,
+    "priority": 79
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§false set while§\\§implements set dynamic§.as",
+    "class": "§",
+    "packet_id": 1015650019,
+    "priority": 15
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§52142364623659123423632234§\\§extends set for§.as",
+    "class": "§",
+    "packet_id": 1044854075,
+    "priority": 41
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§null in§\\§set use try§.as",
+    "class": "§set use try§",
+    "packet_id": 1061006142,
+    "priority": 48
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§switch switch override§\\§each for else§.as",
+    "class": "§each for else§",
+    "packet_id": 1083705823,
+    "priority": 8
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423114382311451123423632234§\\§52142367123684123423632234§.as",
+    "class": "§52142367123684123423632234§",
+    "packet_id": 1091756732,
+    "priority": 34
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214236695236708123423632234§\\§with use function§.as",
+    "class": "§with use function§",
+    "packet_id": 1118835050,
+    "priority": 12
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§extends switch native§\\§5214239880239893123423632234§.as",
+    "class": "§5214239880239893123423632234§",
+    "packet_id": 1132011721,
+    "priority": 14
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214238669238682123423632234§\\§include for if§.as",
+    "class": "§include for if§",
+    "packet_id": 1147113344,
+    "priority": 53
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423125662312579123423632234§\\§521423103122310325123423632234§.as",
+    "class": "§521423103122310325123423632234§",
+    "packet_id": 1149131596,
+    "priority": 32
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423129692312982123423632234§\\§while catch get§.as",
+    "class": "§while catch get§",
+    "packet_id": 1149211509,
+    "priority": 37
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§false set while§\\§521423103292310342123423632234§.as",
+    "class": "§521423103292310342123423632234§",
+    "packet_id": 1152865919,
+    "priority": 15
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§extends switch native§\\§each finally const§.as",
+    "class": "§each finally const§",
+    "packet_id": 1152930968,
+    "priority": 14
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423110712311084123423632234§\\§with use final§.as",
+    "class": "§with use final§",
+    "packet_id": 1153801756,
+    "priority": 17
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214236431236444123423632234§\\§52142356123574123423632234§.as",
+    "class": "§52142356123574123423632234§",
+    "packet_id": 1156768699,
+    "priority": 38
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§true switch final§\\§5214235005235018123423632234§.as",
+    "class": "§5214235005235018123423632234§",
+    "packet_id": 1159058397,
+    "priority": 77
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214237221237234123423632234§\\§static for package§.as",
+    "class": "§static for package§",
+    "packet_id": 1178028365,
+    "priority": 39
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§extends use switch§\\§try const catch§.as",
+    "class": "§try const catch§",
+    "packet_id": 1184835319,
+    "priority": 50
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§in var each§\\§521423139292313942123423632234§.as",
+    "class": "§521423139292313942123423632234§",
+    "packet_id": 1200280053,
+    "priority": 7
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423114382311451123423632234§\\§implements const§.as",
+    "class": "§",
+    "packet_id": 1211186637,
+    "priority": 34
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214232554232567123423632234§\\§5214232639232652123423632234§.as",
+    "class": "§5214232639232652123423632234§",
+    "packet_id": 1212381771,
+    "priority": 57
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§extends use switch§\\§5214235754235767123423632234§.as",
+    "class": "§5214235754235767123423632234§",
+    "packet_id": 1224288585,
+    "priority": 50
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214234442234455123423632234§\\§native finally dynamic§.as",
+    "class": "§native finally dynamic§",
+    "packet_id": 1227293080,
+    "priority": 19
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§throw catch throw§\\§5214236885236898123423632234§.as",
+    "class": "§5214236885236898123423632234§",
+    "packet_id": 1229594925,
+    "priority": 33
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214238669238682123423632234§\\§5214237628237641123423632234§.as",
+    "class": "§5214237628237641123423632234§",
+    "packet_id": 1229701582,
+    "priority": 53
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§throw package override§\\§continue use false§.as",
+    "class": "§continue use false§",
+    "packet_id": 1243673979,
+    "priority": 3
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423129692312982123423632234§\\§521423137922313805123423632234§.as",
+    "class": "§521423137922313805123423632234§",
+    "packet_id": 1249639251,
+    "priority": 37
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214239350239363123423632234§\\§5214239456239469123423632234§.as",
+    "class": "§5214239456239469123423632234§",
+    "packet_id": 1259981343,
+    "priority": 61
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423129692312982123423632234§\\§521423139452313958123423632234§.as",
+    "class": "§521423139452313958123423632234§",
+    "packet_id": 1262947513,
+    "priority": 37
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423140272314040123423632234§\\§521423122852312298123423632234§.as",
+    "class": "§521423122852312298123423632234§",
+    "packet_id": 1271163230,
+    "priority": 6
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§else var set§\\§521423132212313234123423632234§.as",
+    "class": "§521423132212313234123423632234§",
+    "packet_id": 1286861380,
+    "priority": 13
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214235827235840123423632234§\\§5214231226231239123423632234§.as",
+    "class": "§5214231226231239123423632234§",
+    "packet_id": 1312986424,
+    "priority": 24
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423114382311451123423632234§\\§class catch static§.as",
+    "class": "§class catch static§",
+    "packet_id": 1318061480,
+    "priority": 34
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214233704233717123423632234§\\§521423135932313606123423632234§.as",
+    "class": "§521423135932313606123423632234§",
+    "packet_id": 1327826221,
+    "priority": 79
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214232554232567123423632234§\\§5214234004234017123423632234§.as",
+    "class": "§5214234004234017123423632234§",
+    "packet_id": 1333088437,
+    "priority": 57
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214232933232946123423632234§\\§class switch set§.as",
+    "class": "§class switch set§",
+    "packet_id": 1382076950,
+    "priority": 65
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§false set while§\\§5214235951235964123423632234§.as",
+    "class": "§5214235951235964123423632234§",
+    "packet_id": 1383159023,
+    "priority": 15
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§in set native§\\§5214235369235382123423632234§.as",
+    "class": "§5214235369235382123423632234§",
+    "packet_id": 1387974401,
+    "priority": 62
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§return const native§\\§const for while§.as",
+    "class": "§const for while§",
+    "packet_id": 1391146385,
+    "priority": 11
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214232554232567123423632234§\\§throw const null§.as",
+    "class": "§throw const null§",
+    "packet_id": 1395251766,
+    "priority": 57
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§return const native§\\§5214234850234863123423632234§.as",
+    "class": "§5214234850234863123423632234§",
+    "packet_id": 1405859779,
+    "priority": 11
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214231959231972123423632234§\\§false use continue§.as",
+    "class": "§false use continue§",
+    "packet_id": 1411656080,
+    "priority": 44
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214234442234455123423632234§\\§5214232843232856123423632234§.as",
+    "class": "§5214232843232856123423632234§",
+    "packet_id": 1417347634,
+    "priority": 19
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§else var set§\\§5214231192231205123423632234§.as",
+    "class": "§5214231192231205123423632234§",
+    "packet_id": 1422563374,
+    "priority": 13
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§throw catch throw§\\§5214236220236233123423632234§.as",
+    "class": "§5214236220236233123423632234§",
+    "packet_id": 1428217189,
+    "priority": 33
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§52142364623659123423632234§\\§521423119472311960123423632234§.as",
+    "class": "§521423119472311960123423632234§",
+    "packet_id": 1433937811,
+    "priority": 41
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§else var set§\\§521423115392311552123423632234§.as",
+    "class": "§521423115392311552123423632234§",
+    "packet_id": 1441234714,
+    "priority": 13
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§throw package super§\\§if const with§.as",
+    "class": "§if const with§",
+    "packet_id": 1447082276,
+    "priority": 23
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423125662312579123423632234§\\§break switch continue§.as",
+    "class": "§break switch continue§",
+    "packet_id": 1447204641,
+    "priority": 32
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423110712311084123423632234§\\§for const§.as",
+    "class": "§for const§",
+    "packet_id": 1452181070,
+    "priority": 17
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§native var const§\\§for set class§.as",
+    "class": "§for set class§",
+    "packet_id": 1459211021,
+    "priority": 54
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§while use static§\\§5214231274231287123423632234§.as",
+    "class": "§5214231274231287123423632234§",
+    "packet_id": 1470597926,
+    "priority": 49
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§while use static§\\§for var super§.as",
+    "class": "§for var super§",
+    "packet_id": 1478921140,
+    "priority": 49
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§switch switch override§\\§do var false§.as",
+    "class": "§do var false§",
+    "packet_id": 1480924803,
+    "priority": 8
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214238729238742123423632234§\\§function catch finally§.as",
+    "class": "§function catch finally§",
+    "packet_id": 1484572481,
+    "priority": 45
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§break use include§\\§5214234700234713123423632234§.as",
+    "class": "§5214234700234713123423632234§",
+    "packet_id": 1501310158,
+    "priority": 52
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214237221237234123423632234§\\§521423135992313612123423632234§.as",
+    "class": "§521423135992313612123423632234§",
+    "packet_id": 1516578027,
+    "priority": 39
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214239350239363123423632234§\\§class const static§.as",
+    "class": "§class const static§",
+    "packet_id": 1532749363,
+    "priority": 61
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214233704233717123423632234§\\§5214233167233180123423632234§.as",
+    "class": "§5214233167233180123423632234§",
+    "packet_id": 1533026019,
+    "priority": 79
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§throw catch throw§\\§else use final§.as",
+    "class": "§else use final§",
+    "packet_id": 1534651002,
+    "priority": 33
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214235827235840123423632234§\\§5214234980234993123423632234§.as",
+    "class": "§5214234980234993123423632234§",
+    "packet_id": 1544223090,
+    "priority": 24
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§throw catch throw§\\§521423109302310943123423632234§.as",
+    "class": "§521423109302310943123423632234§",
+    "packet_id": 1561014187,
+    "priority": 33
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214237258237271123423632234§\\§5214233670233683123423632234§.as",
+    "class": "§5214233670233683123423632234§",
+    "packet_id": 1566424318,
+    "priority": 69
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423122732312286123423632234§\\§5214233673233686123423632234§.as",
+    "class": "§5214233673233686123423632234§",
+    "packet_id": 1570555748,
+    "priority": 9
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214234442234455123423632234§\\§521423110352311048123423632234§.as",
+    "class": "§521423110352311048123423632234§",
+    "packet_id": 1579425801,
+    "priority": 19
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214237521237534123423632234§\\§521423111672311180123423632234§.as",
+    "class": "§521423111672311180123423632234§",
+    "packet_id": 1587315905,
+    "priority": 76
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214233704233717123423632234§\\§5214232806232819123423632234§.as",
+    "class": "§5214232806232819123423632234§",
+    "packet_id": 1591528838,
+    "priority": 79
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§true switch final§\\§5214237388237401123423632234§.as",
+    "class": "§5214237388237401123423632234§",
+    "packet_id": 1630934941,
+    "priority": 77
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§extends use switch§\\§implements set function§.as",
+    "class": "§",
+    "packet_id": 1632423559,
+    "priority": 50
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214234442234455123423632234§\\§true use function§.as",
+    "class": "§true use function§",
+    "packet_id": 1642608662,
+    "priority": 19
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§break use include§\\§class set super§.as",
+    "class": "§class set super§",
+    "packet_id": 1690491826,
+    "priority": 52
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§var finally§\\§521423136742313687123423632234§.as",
+    "class": "§521423136742313687123423632234§",
+    "packet_id": 1711371907,
+    "priority": 20
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§else var set§\\§5214231800231813123423632234§.as",
+    "class": "§5214231800231813123423632234§",
+    "packet_id": 1716773193,
+    "priority": 13
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214237221237234123423632234§\\§super catch import§.as",
+    "class": "§super catch import§",
+    "packet_id": 1719707347,
+    "priority": 39
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423122732312286123423632234§\\§5214234584234597123423632234§.as",
+    "class": "§5214234584234597123423632234§",
+    "packet_id": 1744584433,
+    "priority": 9
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423107152310728123423632234§\\§5214231339231352123423632234§.as",
+    "class": "§5214231339231352123423632234§",
+    "packet_id": 1746762585,
+    "priority": 71
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§false for switch§\\§5214231339231352123423632234§.as",
+    "class": "§5214231339231352123423632234§",
+    "packet_id": 1758551995,
+    "priority": 80
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§override for const§\\§finally switch package§.as",
+    "class": "§finally switch package§",
+    "packet_id": 1765029653,
+    "priority": 67
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214234442234455123423632234§\\§var use use§.as",
+    "class": "§var use use§",
+    "packet_id": 1768449810,
+    "priority": 19
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214235827235840123423632234§\\§package package break§.as",
+    "class": "§package package break§",
+    "packet_id": 1771456254,
+    "priority": 24
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§if set case§\\§with package get§.as",
+    "class": "§with package get§",
+    "packet_id": 1774907609,
+    "priority": 18
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§catch super§\\§try set§.as",
+    "class": "§try set§",
+    "packet_id": 1794372798,
+    "priority": 74
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423107152310728123423632234§\\§521423128042312817123423632234§.as",
+    "class": "§521423128042312817123423632234§",
+    "packet_id": 1817559787,
+    "priority": 71
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§function use super§\\§521423136142313627123423632234§.as",
+    "class": "§521423136142313627123423632234§",
+    "packet_id": 1831462385,
+    "priority": 36
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§52142339423407123423632234§\\§5214231339231352123423632234§.as",
+    "class": "§5214231339231352123423632234§",
+    "packet_id": 1863710730,
+    "priority": 16
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214237221237234123423632234§\\§5214236346236359123423632234§.as",
+    "class": "§5214236346236359123423632234§",
+    "packet_id": 1868573511,
+    "priority": 39
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423100822310095123423632234§\\§5214232987233000123423632234§.as",
+    "class": "§5214232987233000123423632234§",
+    "packet_id": 1870342869,
+    "priority": 75
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214233704233717123423632234§\\§include for set§.as",
+    "class": "§include for set§",
+    "packet_id": 1913571122,
+    "priority": 79
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§throw catch throw§\\§get switch finally§.as",
+    "class": "§get switch finally§",
+    "packet_id": 1924874982,
+    "priority": 33
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§extends use finally§\\§521423128042312817123423632234§.as",
+    "class": "§521423128042312817123423632234§",
+    "packet_id": 1925237062,
+    "priority": 42
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214237221237234123423632234§\\§5214238736238749123423632234§.as",
+    "class": "§5214238736238749123423632234§",
+    "packet_id": 1927704181,
+    "priority": 39
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214235827235840123423632234§\\§521423118572311870123423632234§.as",
+    "class": "§521423118572311870123423632234§",
+    "packet_id": 1928355480,
+    "priority": 24
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423107152310728123423632234§\\§521423112324123423632234§.as",
+    "class": "§521423112324123423632234§",
+    "packet_id": 1941352088,
+    "priority": 71
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§if set case§\\§do switch get§.as",
+    "class": "§do switch get§",
+    "packet_id": 1941694508,
+    "priority": 18
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423129692312982123423632234§\\§5214234302234315123423632234§.as",
+    "class": "§5214234302234315123423632234§",
+    "packet_id": 1953272681,
+    "priority": 37
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423100822310095123423632234§\\§521423127012312714123423632234§.as",
+    "class": "§521423127012312714123423632234§",
+    "packet_id": 1961542160,
+    "priority": 75
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214235933235946123423632234§\\§52142380623819123423632234§.as",
+    "class": "§52142380623819123423632234§",
+    "packet_id": 1989173907,
+    "priority": 29
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§null switch final§\\§5214235042235055123423632234§.as",
+    "class": "§5214235042235055123423632234§",
+    "packet_id": 1993050216,
+    "priority": 28
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§catch catch get§\\§521423136002313613123423632234§.as",
+    "class": "§521423136002313613123423632234§",
+    "packet_id": 2001632000,
+    "priority": 55
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423113572311370123423632234§\\§null continue§.as",
+    "class": "§null continue§",
+    "packet_id": 2001736388,
+    "priority": 4
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423125662312579123423632234§\\§521423109302310943123423632234§.as",
+    "class": "§521423109302310943123423632234§",
+    "packet_id": 2011860838,
+    "priority": 32
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214235827235840123423632234§\\§521423137742313787123423632234§.as",
+    "class": "§521423137742313787123423632234§",
+    "packet_id": 2029312880,
+    "priority": 24
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§default set include§\\§5214238540238553123423632234§.as",
+    "class": "§5214238540238553123423632234§",
+    "packet_id": 2032104949,
+    "priority": 43
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214231959231972123423632234§\\§case switch true§.as",
+    "class": "§case switch true§",
+    "packet_id": 2040021062,
+    "priority": 44
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214233704233717123423632234§\\§for package else§.as",
+    "class": "§for package else§",
+    "packet_id": 2041223590,
+    "priority": 79
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§if set case§\\§521423109872311000123423632234§.as",
+    "class": "§521423109872311000123423632234§",
+    "packet_id": 2041598093,
+    "priority": 18
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423114382311451123423632234§\\§5214232475232488123423632234§.as",
+    "class": "§5214232475232488123423632234§",
+    "packet_id": 2062201643,
+    "priority": 34
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§else var set§\\§521423136762313689123423632234§.as",
+    "class": "§521423136762313689123423632234§",
+    "packet_id": 2064692768,
+    "priority": 13
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214233704233717123423632234§\\§switch for function§.as",
+    "class": "§switch for function§",
+    "packet_id": 2073319841,
+    "priority": 79
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§static package in§\\§function catch finally§.as",
+    "class": "§function catch finally§",
+    "packet_id": 2074243318,
+    "priority": 46
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§false catch native§\\§5214237104237117123423632234§.as",
+    "class": "§5214237104237117123423632234§",
+    "packet_id": 2092412133,
+    "priority": 31
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§521423130242313037123423632234§\\§5214231339231352123423632234§.as",
+    "class": "§5214231339231352123423632234§",
+    "packet_id": 2094741924,
+    "priority": 73
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214236404236417123423632234§\\§5214237190237203123423632234§.as",
+    "class": "§5214237190237203123423632234§",
+    "packet_id": 2098576423,
+    "priority": 22
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214235933235946123423632234§\\§try static§.as",
+    "class": "§try static§",
+    "packet_id": 2116086491,
+    "priority": 29
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§try set package§\\§521423133782313391123423632234§.as",
+    "class": "§521423133782313391123423632234§",
+    "packet_id": 2128281231,
+    "priority": 70
+  },
+  {
+    "file": "C:\\Users\\Oleh\\Documents\\ProTanki-security\\artifacts\\swf\\decompiled_library\\scripts\\§5214235827235840123423632234§\\§5214237819237832123423632234§.as",
+    "class": "§5214237819237832123423632234§",
+    "packet_id": 2145091885,
+    "priority": 24
+  }
+]

@@ -1,0 +1,74 @@
+{
+  "source_csv": "artifacts\\traffic\\protanki_watch_146_59_110_146_25565_20260404_180956.csv",
+  "generated_at_utc": "2026-04-04T16:10:55.805177+00:00",
+  "raw_events": 238,
+  "deduped_events": 62,
+  "pickup_attempts": 5,
+  "accepted_attempts": 5,
+  "rejected_or_unclear_attempts": 0,
+  "attempts": [
+    {
+      "req_ts": "2026-04-04T16:10:00.328404+00:00",
+      "nearest_spawn_ts": "2026-04-04T16:10:00.163135+00:00",
+      "spawn_delta_ms": 165,
+      "confirm_ts": "2026-04-04T16:10:00.332697+00:00",
+      "crystal_ts": null,
+      "accepted": true
+    },
+    {
+      "req_ts": "2026-04-04T16:10:00.805997+00:00",
+      "nearest_spawn_ts": "2026-04-04T16:10:00.610070+00:00",
+      "spawn_delta_ms": 195,
+      "confirm_ts": "2026-04-04T16:10:00.808409+00:00",
+      "crystal_ts": null,
+      "accepted": true
+    },
+    {
+      "req_ts": "2026-04-04T16:10:03.191477+00:00",
+      "nearest_spawn_ts": "2026-04-04T16:10:02.820000+00:00",
+      "spawn_delta_ms": 371,
+      "confirm_ts": "2026-04-04T16:10:03.197329+00:00",
+      "crystal_ts": "2026-04-04T16:10:03.193999+00:00",
+      "accepted": true
+    },
+    {
+      "req_ts": "2026-04-04T16:10:03.370128+00:00",
+      "nearest_spawn_ts": "2026-04-04T16:10:02.820000+00:00",
+      "spawn_delta_ms": 550,
+      "confirm_ts": "2026-04-04T16:10:03.377470+00:00",
+      "crystal_ts": "2026-04-04T16:10:03.373732+00:00",
+      "accepted": true
+    },
+    {
+      "req_ts": "2026-04-04T16:10:03.578798+00:00",
+      "nearest_spawn_ts": "2026-04-04T16:10:02.820000+00:00",
+      "spawn_delta_ms": 758,
+      "confirm_ts": "2026-04-04T16:10:03.584884+00:00",
+      "crystal_ts": "2026-04-04T16:10:03.580890+00:00",
+      "accepted": true
+    }
+  ],
+  "marker_results": [],
+  "attack_surface": {
+    "replay_window_ms": 250,
+    "rapid_pickup_threshold_ms": 80,
+    "replay_clusters": [],
+    "rapid_accepted_pickups": [],
+    "accepted_without_recent_spawn": [],
+    "risk_score": 0,
+    "risk_level": "low",
+    "signals": {
+      "replay_cluster_count": 0,
+      "rapid_accepted_count": 0,
+      "accepted_without_spawn_count": 0
+    }
+  },
+  "settings": {
+    "dedup_window_ms": 8,
+    "max_spawn_back_ms": 2000,
+    "confirm_window_ms": 700,
+    "crystal_window_ms": 1200,
+    "replay_window_ms": 250,
+    "rapid_pickup_ms": 80
+  }
+}
